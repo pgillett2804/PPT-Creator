@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "workspace": {
+    "name": "Nova",
+    "createdAt": 1780492372771,
+    "preset": "starter"
+  },
+  "authorizedRoots": [
+    "C:\\Users\\pgillett\\Nova"
+  ],
+  "reload": null
+}

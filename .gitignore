@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Temp files
+*.tmp
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Private memory (credentials, tokens, local config)
+.env
+*.credentials
+*.secret
+
+# Package lock (let each user resolve)
+.opencode/package-lock.json
+
+# Large media files (background images are extracted locally)
+# Each user runs extract_images.js to populate these
+cc_images/
+om_icons/
+om_bg/
