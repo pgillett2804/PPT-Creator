@@ -169,14 +169,46 @@ White stop alpha: **45%** (`val="45000"`)
 - White space: generous margins, let slides breathe
 - Never pack content to the top — distribute vertically
 
+### Lines & Dividers
+- **3pt thick** (38100 EMU) — never thinner
+- **Rounded caps** — use `roundRect` with `adj="50000"` for fully rounded ends
+- **Gradient fill** matching the slide's accent color — fades from 80% alpha to 10%
+- Extend lines generously (6-8") — not short stubby lines
+
+### Title Cover Rules
+- Title text should be **BIG** — minimum 60pt, ideally 80pt for cover slides
+- Split long titles across **3 lines** for vertical impact (not crammed on 2)
+- Title starts high (y=0.8") to fill the slide
+- Split subtitle into **two parts** on the same line — one white, one gray — creates visual tension
+- Wide divider line (8"+) between title and subtitle
+- Presenter/date info small (15pt) at the very bottom
+
+### Light Background Slide Rules (learned from Visual Reference Deck)
+Light slides should NOT be plain text-on-white. Use these dynamic patterns:
+
+1. **Big title left + staggered text right** — 54pt title on left third, supporting text at varied sizes on right two-thirds, stat callout at bottom
+2. **Centered big number with flanking text** — giant number centered, context text left-aligned on the left and right-aligned on the right for visual balance
+3. **Asymmetric — title RIGHT** — occasionally put the title on the right side and content on the left. Breaks the left-always pattern
+4. **Three-stat with colored accent bars** — horizontal roundRect color bars above each stat block, different accent colors per block, sub-text below
+5. **Stacked text hierarchy + large image** — title (54pt) → subtitle (24pt) → divider → body (18pt) with rounded image taking 50% of slide
+6. **Full-width statement on white** — large provocative question at 48pt spanning nearly full width, thin divider, call-to-action below
+
+### Background Mix
+- Aim for roughly **55% dark / 45% light** across a full presentation
+- Dark slides: covers, statements, discussions, section dividers, quizzes, scenarios
+- Light slides: data dashboards, comparisons, timelines, activities, do/don't, resources, concept blocks
+- Never have more than 4 consecutive dark OR light slides — alternate
+
 ### Design Principles (applied)
 1. **Contrast** — dramatic size differences between title and body
-2. **Balance** — asymmetric positioning, not everything left-aligned
+2. **Balance** — asymmetric positioning, not everything left-aligned. Sometimes title goes RIGHT
 3. **Emphasis** — clear focal point on every slide
 4. **Proportion** — 3:1+ ratio between largest and smallest text
 5. **White space** — intentional empty areas, don't fill everything
 6. **Movement** — F-pattern/Z-pattern eye flow
-7. **Unity** — consistent line treatment, color system, font weights
+7. **Unity** — consistent line treatment (3pt rounded), color system, font weights
+8. **Variety** — vary text positions, alignment, and layout structure slide-to-slide
+9. **Bookending** — use the same visual element at start and end (e.g. "3 Things to Consider")
 
 ---
 
