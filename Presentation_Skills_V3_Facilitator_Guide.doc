@@ -1,0 +1,1640 @@
+﻿<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 15">
+<!--[if gte mso 9]>
+<xml>
+<o:DocumentProperties>
+<o:Title>Presentation Skills V3 - Full Day ILT Facilitator Guide</o:Title>
+<o:Author>Tesla UK Learning &amp; Development</o:Author>
+</o:DocumentProperties>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<style>
+body { font-family:'Calibri',sans-serif; font-size:11pt; line-height:1.5; margin:72pt; color:#1a1a1a; }
+h1 { font-family:'Calibri',sans-serif; font-size:26pt; font-weight:bold; color:#c00000; border-bottom:3px solid #c00000; padding-bottom:8pt; margin-top:36pt; margin-bottom:12pt; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h2 { font-family:'Calibri',sans-serif; font-size:18pt; font-weight:bold; color:#333333; margin-top:24pt; margin-bottom:8pt; border-bottom:1px solid #cccccc; padding-bottom:4pt; }
+h3 { font-family:'Calibri',sans-serif; font-size:14pt; font-weight:bold; color:#c00000; margin-top:18pt; margin-bottom:6pt; }
+h4 { font-family:'Calibri',sans-serif; font-size:12pt; font-weight:bold; color:#555555; margin-top:12pt; margin-bottom:4pt; }
+p { margin-bottom:6pt; }
+table { border-collapse:collapse; width:100%; margin:12pt 0; font-size:10pt; }
+th { background-color:#c00000; color:white; font-weight:bold; padding:8pt 10pt; text-align:left; border:1px solid #999999; }
+td { padding:6pt 10pt; border:1px solid #cccccc; vertical-align:top; }
+tr:nth-child(even) { background-color:#f5f5f5; }
+.cover-page { text-align:center; padding-top:120pt; page-break-after:always; }
+.cover-title { font-size:36pt; font-weight:bold; color:#c00000; margin-bottom:12pt; border:none; page-break-before:avoid; }
+.cover-subtitle { font-size:18pt; color:#333333; margin-bottom:48pt; }
+.cover-meta { font-size:12pt; color:#666666; line-height:2; }
+.script-box { background-color:#f0f4f8; border-left:4px solid #c00000; padding:12pt 16pt; margin:12pt 0; font-style:italic; font-size:10.5pt; line-height:1.6; }
+.script-label { font-weight:bold; font-style:normal; color:#c00000; display:block; margin-bottom:6pt; font-size:10pt; text-transform:uppercase; }
+.activity-box { background-color:#fff8e1; border-left:4px solid #f59e0b; padding:12pt 16pt; margin:12pt 0; font-size:10.5pt; }
+.activity-label { font-weight:bold; color:#b45309; display:block; margin-bottom:6pt; font-size:10pt; text-transform:uppercase; }
+.tip-box { background-color:#e8f5e9; border-left:4px solid #2e7d32; padding:12pt 16pt; margin:12pt 0; font-size:10.5pt; }
+.tip-label { font-weight:bold; color:#2e7d32; display:block; margin-bottom:6pt; font-size:10pt; text-transform:uppercase; }
+.transition-box { background-color:#ede7f6; border-left:4px solid #5e35b1; padding:10pt 14pt; margin:12pt 0; font-size:10.5pt; }
+.transition-label { font-weight:bold; color:#5e35b1; display:block; margin-bottom:4pt; font-size:10pt; text-transform:uppercase; }
+.video-box { background-color:#e3f2fd; border-left:4px solid #1565c0; padding:12pt 16pt; margin:12pt 0; font-size:10.5pt; }
+.video-label { font-weight:bold; color:#1565c0; display:block; margin-bottom:6pt; font-size:10pt; text-transform:uppercase; }
+.objective-box { background-color:#fce4ec; border-left:4px solid #c62828; padding:10pt 14pt; margin:12pt 0; font-size:10.5pt; }
+.objective-label { font-weight:bold; color:#c62828; display:block; margin-bottom:4pt; font-size:10pt; text-transform:uppercase; }
+.inclusion-box { background-color:#f3e5f5; border-left:4px solid #7b1fa2; padding:12pt 16pt; margin:12pt 0; font-size:10.5pt; }
+.inclusion-label { font-weight:bold; color:#7b1fa2; display:block; margin-bottom:6pt; font-size:10pt; text-transform:uppercase; }
+.time-badge { display:inline-block; background-color:#c00000; color:white; padding:2pt 8pt; border-radius:4pt; font-size:9pt; font-weight:bold; margin-right:6pt; }
+ul, ol { margin-bottom:8pt; padding-left:24pt; }
+li { margin-bottom:4pt; }
+</style>
+</head>
+<body>
+
+<div class="cover-page">
+    <div class="cover-title" style="border-bottom:none;">PRESENTATION SKILLS V3</div>
+    <div class="cover-subtitle">Full Day Instructor-Led Training<br>Facilitator Guide &amp; Session Script</div>
+    <p style="font-size:14pt; color:#c00000; font-weight:bold; margin-bottom:48pt;">Communicate. Present. Facilitate. Lead.</p>
+    <div class="cover-meta">
+        <p><strong>Programme:</strong> Presentation Skills V3 &mdash; Tesla UK</p>
+        <p><strong>Format:</strong> Full Day ILT (In-Person)</p>
+        <p><strong>Duration:</strong> 8 Hours (09:00 &ndash; 17:10)</p>
+        <p><strong>Participants:</strong> 8&ndash;16 Recommended</p>
+        <p><strong>Version:</strong> 3.0</p>
+        <p><strong>Classification:</strong> Internal Use Only</p>
+    </div>
+</div>
+
+<h1 style="page-break-before:avoid;">TABLE OF CONTENTS</h1>
+<table>
+<tr><td style="width:70%;"><strong>Section</strong></td><td><strong>Page</strong></td></tr>
+<tr><td>Course Overview, Outcomes &amp; Facilitator Preparation</td><td>3</td></tr>
+<tr><td>Inclusivity &amp; Accessibility Considerations</td><td>6</td></tr>
+<tr><td>Day-at-a-Glance &mdash; Full Schedule</td><td>7</td></tr>
+<tr><td>Module 1: Opening &amp; Foundations &mdash; Audience Empathy (09:00&ndash;10:15)</td><td>9</td></tr>
+<tr><td>Module 2: Strategic Storytelling &amp; Making the Complex Simple (10:30&ndash;12:00)</td><td>17</td></tr>
+<tr><td>Module 3: Executive Presence, Virtual Presence &amp; Business Cases (13:00&ndash;14:15)</td><td>27</td></tr>
+<tr><td>Module 4: PowerPoint &amp; Visual Content Design (14:30&ndash;15:10)</td><td>39</td></tr>
+<tr><td>Module 5: Facilitation, Active Listening &amp; Managing Q&amp;A (15:10&ndash;16:10)</td><td>47</td></tr>
+<tr><td>Module 6: Capstone Presentations &amp; Close (16:10&ndash;17:10)</td><td>57</td></tr>
+<tr><td>Post-Session Transfer &amp; Reinforcement Plan</td><td>63</td></tr>
+<tr><td>Appendix A: Materials &amp; Equipment Checklist</td><td>66</td></tr>
+<tr><td>Appendix B: Participant Handouts &amp; Templates</td><td>68</td></tr>
+<tr><td>Appendix C: Slide Redesign &mdash; &ldquo;Before&rdquo; Slides &amp; Answer Key</td><td>74</td></tr>
+<tr><td>Appendix D: Assessment Rubrics &amp; Feedback Forms</td><td>77</td></tr>
+<tr><td>Appendix E: Video Exemplar Cue Sheet &amp; Sourcing Guide</td><td>80</td></tr>
+<tr><td>Appendix F: Facilitator Delivery Notes &amp; Contingencies</td><td>82</td></tr>
+<tr><td>Appendix G: Manager Briefing Pack</td><td>85</td></tr>
+</table>
+
+
+<h1>COURSE OVERVIEW &amp; FACILITATOR PREPARATION</h1>
+
+<h2>Programme Purpose</h2>
+<p>Presentation Skills V3 is a targeted, full-day instructor-led training session that equips team members across Tesla UK with the practical skills needed to communicate, present, and facilitate to a professional standard. The ability to communicate with confidence is not limited to formal training delivery. Many individuals across Tesla UK interact daily in contexts that demand clarity, composure, and presence &mdash; internal meetings, cross-functional calls, leadership presentations, job interviews, and customer and contractor interactions &mdash; yet rarely receive structured development in how to do this effectively.</p>
+
+<h2>Programme Objective</h2>
+<p>To deliver V3 of the Presentation Skills ILT that directly addresses the gap in structured communication development through four integrated pillars:</p>
+<ol>
+    <li><strong>Public Speaking &amp; Personal Presence:</strong> Developing composure, clarity, and confidence when speaking in group settings &mdash; including internal meetings, Microsoft Teams calls, panel interviews, and cross-functional forums &mdash; where individuals need to represent themselves and their ideas credibly</li>
+    <li><strong>Business Cases, Pitches &amp; Structured Discussions:</strong> Equipping participants with frameworks for presenting ideas, proposals, and recommendations in a way that is logical, persuasive, and appropriate for the audience &mdash; whether pitching to a senior leadership team, presenting a business case for investment, or making a case for operational change</li>
+    <li><strong>PowerPoint &amp; Visual Content Design:</strong> Building the ability to create structured, visually effective materials that support and strengthen a message rather than undermine it</li>
+    <li><strong>Facilitation Skills:</strong> Developing the ability to read a room, manage group dynamics, draw out contribution from quieter individuals, handle challenging questions or pushback, and keep energy and focus consistent across a session &mdash; including how to open with impact, use questioning techniques, manage time without losing depth, and close in a way that drives retention and action</li>
+</ol>
+
+<h2>Target Outcome</h2>
+<p>Confident and capable team members across Tesla UK who can present, facilitate, and communicate with credibility across all professional contexts:</p>
+<ul>
+    <li>Individuals who previously struggled with visibility in meetings, on calls, or in high-stakes conversations develop the composure and structure to communicate their ideas clearly and credibly, regardless of the audience or setting</li>
+    <li>Participants are able to deliver structured, engaging, and professional presentations to varied audiences, moving beyond information transfer to communication that genuinely lands and drives action</li>
+    <li>Participants move beyond passive information delivery to actively managing groups, handling dynamics, drawing out contribution, responding to challenge, and maintaining energy and focus</li>
+    <li>Greater personal confidence in high-stakes moments &mdash; whether in a panel interview, a leadership presentation, a Teams call, or a cross-functional forum &mdash; participants have practical tools and rehearsed experience to perform under pressure</li>
+</ul>
+
+<h2>Six Core Teaching Themes</h2>
+<p>The following six themes are woven throughout every module and activity. They are not standalone topics but lenses that the facilitator must constantly reinforce:</p>
+<table>
+<tr><th style="width:30%;">Theme</th><th>Definition</th></tr>
+<tr><td><strong>Audience Empathy</strong></td><td>Shifting the focus from &ldquo;what I want to say&rdquo; to &ldquo;what they need to hear.&rdquo; Understanding the differing priorities of stakeholders, team members, and senior leadership.</td></tr>
+<tr><td><strong>Strategic Storytelling</strong></td><td>Translating complex data or abstract concepts into a compelling narrative. The ability to show a clear path forward that people can buy into.</td></tr>
+<tr><td><strong>Making the Complex Simple</strong></td><td>Filtering out excessive background noise or jargon to deliver headlines first, saving granular details for the appendix or Q&amp;A.</td></tr>
+<tr><td><strong>Executive Presence</strong></td><td>Projecting calm confidence, commanding attention naturally, and effectively using strategic pauses and vocal modulation.</td></tr>
+<tr><td><strong>Active Listening</strong></td><td>Paying close attention to the audience&rsquo;s reactions, body language, and feedback during the session to dynamically adapt delivery.</td></tr>
+<tr><td><strong>Managing Q&amp;A and Conflict</strong></td><td>Anticipating objections, fielding questions with composure, and steering feedback toward actionable results.</td></tr>
+</table>
+
+<h2>Facilitator Prerequisites</h2>
+<ul>
+    <li>Review all materials, handouts, slide decks, and video clips at least 48 hours before delivery</li>
+    <li>Prepare the room layout in a U-shape or cabaret style &mdash; participants must be able to see each other and a clear presentation area</li>
+    <li>Test all AV equipment including projector/screen, clicker, speakers, webcam, and any recording devices</li>
+    <li>Confirm a working Microsoft Teams setup with a second device (laptop or tablet) for the Virtual Presence drill in Module 3</li>
+    <li>Source and test all video exemplar clips (see Appendix E for sourcing guide and cue sheet)</li>
+    <li>Print all participant handouts (see Appendix B) &mdash; one pack per participant plus two spares</li>
+    <li>Prepare a flip chart with the &ldquo;Parking Lot&rdquo; header for capturing off-topic questions</li>
+    <li>Have a timer visible (phone on a stand or wall clock) &mdash; timed activities run throughout the day</li>
+    <li>Prepare name tent cards or table name cards for each participant</li>
+    <li>Review the Inclusivity &amp; Accessibility section below and adapt activities if needed based on known participant needs</li>
+    <li>Send the pre-session communication to participants (see Post-Session Transfer section) at least 5 working days before the session</li>
+</ul>
+
+<h2>Materials &amp; Equipment Summary</h2>
+<table>
+<tr><th>Item</th><th>Quantity</th><th>Notes</th></tr>
+<tr><td>Projector &amp; Screen / Large Display</td><td>1</td><td>HDMI and USB-C adaptor available</td></tr>
+<tr><td>Facilitator Laptop</td><td>1</td><td>Loaded with slide decks, video clips, and Teams</td></tr>
+<tr><td>Second Device (Laptop or Tablet)</td><td>1</td><td>For Virtual Presence drill &mdash; joins a Teams call as &ldquo;the audience&rdquo;</td></tr>
+<tr><td>Webcam (if laptop camera is poor quality)</td><td>1</td><td>External USB webcam for clear playback</td></tr>
+<tr><td>Flip Chart Easels &amp; Pads</td><td>3&ndash;4</td><td>One per table group plus one for Parking Lot</td></tr>
+<tr><td>Marker Pens (assorted colours)</td><td>4 packs</td><td>Thick tip for flip chart visibility</td></tr>
+<tr><td>Sticky Notes (3 colours)</td><td>6 packs</td><td>Used in multiple activities</td></tr>
+<tr><td>Printed Participant Handout Packs</td><td>1 per person + 2</td><td>See Appendix B for contents</td></tr>
+<tr><td>Timer / Countdown Display</td><td>1</td><td>Visible to all participants</td></tr>
+<tr><td>Wireless Presentation Clicker</td><td>1</td><td>For facilitator use</td></tr>
+<tr><td>Participant Name Tent Cards</td><td>1 per person</td><td>Pre-printed or blank for self-write</td></tr>
+<tr><td>Feedback Forms / Evaluation Sheets</td><td>1 per person</td><td>End of day evaluation</td></tr>
+<tr><td>Video Recording Device (optional)</td><td>1</td><td>For playback of practice presentations if participants consent</td></tr>
+</table>
+
+<h1>INCLUSIVITY &amp; ACCESSIBILITY CONSIDERATIONS</h1>
+
+<p>This programme involves public speaking, impromptu delivery, and peer feedback &mdash; activities that carry different levels of psychological and practical challenge depending on individual circumstances. The following guidance ensures the session is stretching but never exclusionary.</p>
+
+<div class="inclusion-box">
+<span class="inclusion-label">Neurodivergent Participants (e.g. ADHD, Autism, Dyslexia, Anxiety Disorders)</span>
+<p><strong>Impromptu speaking</strong> can be acutely distressing for some neurodivergent individuals. Mitigations:</p>
+<ul>
+    <li>In pre-session communication, outline what the day involves so there are no surprises. Name specifically that there will be standing, speaking, and impromptu activities</li>
+    <li>During the 60-Second Spotlight, offer the option to choose from two topic cards (reducing the &ldquo;ambush&rdquo; factor) or to prepare for 60 seconds before speaking</li>
+    <li>Never force participation. Always offer a reduced-pressure alternative: presenting to the facilitator and one peer rather than the full group</li>
+    <li>Provide handouts in advance (digitally) so participants can pre-read if they process written information better than live instruction</li>
+    <li>Be aware that some participants may stim, avoid eye contact, or need movement breaks &mdash; none of these are signs of disengagement</li>
+</ul>
+</div>
+
+<div class="inclusion-box">
+<span class="inclusion-label">Participants with Speech, Hearing, or Physical Differences</span>
+<ul>
+    <li>If a participant has a stammer or speech difference, never finish their sentences, rush them, or draw attention to the difference. Allow them to complete their thought at their own pace</li>
+    <li>For participants with hearing differences, ensure the facilitator faces the room when speaking (not the screen), speaks clearly without exaggerating, and checks understanding regularly</li>
+    <li>If a participant uses a wheelchair or has limited mobility, ensure the &ldquo;presentation area&rdquo; is accessible. Adapt standing activities &mdash; presence is about energy and connection, not posture alone</li>
+    <li>If BSL interpreters are required, confirm booking at least 2 weeks in advance and seat the interpreter in the participant&rsquo;s sightline</li>
+</ul>
+</div>
+
+<div class="inclusion-box">
+<span class="inclusion-label">Participants for Whom English Is a Second Language</span>
+<ul>
+    <li>Impromptu speaking in a second language is significantly harder. For the 60-Second Spotlight, consider allowing these participants to pick their topic card 2 minutes early</li>
+    <li>Avoid idioms and cultural references that may not translate. If you use one in your script, briefly explain it</li>
+    <li>In pair and group activities, be intentional about groupings &mdash; avoid pairing two ESL speakers together if it limits their practice in English delivery</li>
+    <li>Frame the Jargon Audit (Module 2B) as particularly relevant for cross-cultural communication &mdash; what is clear to a native English speaker may be opaque to an international colleague</li>
+</ul>
+</div>
+
+<div class="inclusion-box">
+<span class="inclusion-label">Psychological Safety &mdash; General Principles</span>
+<ul>
+    <li>The ground rule &ldquo;Be willing to be uncomfortable&rdquo; must be balanced with genuine safety. Discomfort from stretching is productive; distress is not. Read the difference</li>
+    <li>All feedback in front of the group must be specific, balanced, and constructive. Developmental points are framed as &ldquo;next time, try&hellip;&rdquo; not &ldquo;you did X wrong&rdquo;</li>
+    <li>If a participant becomes visibly distressed, pause the exercise privately. Never continue an activity at someone&rsquo;s expense for the sake of the schedule</li>
+    <li>If using video recording for playback, obtain explicit individual consent. Make it clear that footage is for same-day learning only and will be deleted immediately after the session</li>
+</ul>
+</div>
+
+
+<h1>DAY-AT-A-GLANCE &mdash; FULL SCHEDULE</h1>
+
+<table>
+<tr><th style="width:14%;">Time</th><th style="width:26%;">Module / Block</th><th style="width:38%;">Content &amp; Activities</th><th style="width:22%;">Core Themes</th></tr>
+<tr><td>09:00&ndash;09:15</td><td><strong>Welcome &amp; Scene Setting</strong></td><td>Facilitator welcome, housekeeping, introductions, programme objectives, ground rules</td><td>&mdash;</td></tr>
+<tr><td>09:15&ndash;09:45</td><td><strong>Icebreaker: The 60-Second Spotlight</strong></td><td>Each participant delivers a 60-second unscripted talk on a random topic. Baseline observation.</td><td>Executive Presence</td></tr>
+<tr><td>09:45&ndash;10:15</td><td><strong>Module 1: Audience Empathy</strong></td><td>Teaching block + Stakeholder Mapping exercise + Persona Cards activity</td><td>Audience Empathy</td></tr>
+<tr style="background-color:#e8e8e8;"><td>10:15&ndash;10:30</td><td colspan="3" style="text-align:center;"><strong>BREAK (15 minutes)</strong></td></tr>
+<tr><td>10:30&ndash;11:15</td><td><strong>Module 2A: Strategic Storytelling</strong></td><td>Teaching block: SCR+BN framework, &ldquo;So What?&rdquo; test. Video exemplar. Group exercise: Story Spine.</td><td>Strategic Storytelling</td></tr>
+<tr><td>11:15&ndash;12:00</td><td><strong>Module 2B: Making the Complex Simple</strong></td><td>Teaching block: Pyramid Principle, Jargon Audit. Individual exercise: One-Slide Challenge.</td><td>Making the Complex Simple</td></tr>
+<tr style="background-color:#e8e8e8;"><td>12:00&ndash;13:00</td><td colspan="3" style="text-align:center;"><strong>LUNCH (60 minutes)</strong></td></tr>
+<tr><td>13:00&ndash;13:10</td><td><strong>Energiser &amp; Reconnect</strong></td><td>Stand &amp; Deliver Recap: one-sentence morning takeaway per person.</td><td>&mdash;</td></tr>
+<tr><td>13:10&ndash;13:50</td><td><strong>Module 3A: Executive Presence</strong></td><td>Teaching block: vocal variety, strategic pauses, body language, managing nerves. Video exemplar (contrast clip). Power Opener drill.</td><td>Executive Presence</td></tr>
+<tr><td>13:50&ndash;14:15</td><td><strong>Module 3B: Virtual Presence &amp; Business Cases</strong></td><td>Teams Camera Drill (virtual delivery practice). PREP framework. 3-Minute Business Case pair exercise.</td><td>Executive Presence, Strategic Storytelling</td></tr>
+<tr style="background-color:#e8e8e8;"><td>14:15&ndash;14:30</td><td colspan="3" style="text-align:center;"><strong>BREAK (15 minutes)</strong></td></tr>
+<tr><td>14:30&ndash;15:10</td><td><strong>Module 4: PowerPoint &amp; Visual Content Design</strong></td><td>Teaching block: Seven Slide Sins, five design principles, Billboard Test. Before/after walkthrough. Slide Redesign Challenge.</td><td>Making the Complex Simple, Audience Empathy</td></tr>
+<tr><td>15:10&ndash;16:10</td><td><strong>Module 5: Facilitation, Active Listening &amp; Managing Q&amp;A</strong></td><td>Teaching block: opening/closing with impact, active listening, questioning techniques, time management in facilitation, handling conflict. &ldquo;Difficult Room&rdquo; simulation (two rounds).</td><td>Active Listening, Managing Q&amp;A and Conflict</td></tr>
+<tr><td>16:10&ndash;16:50</td><td><strong>Module 6: Capstone Presentations</strong></td><td>ALL participants deliver a 2-minute structured presentation (breakout groups of 4&ndash;5 with peer assessment, then 3&ndash;4 volunteer to the full room). Peer and facilitator feedback.</td><td>All Six Themes</td></tr>
+<tr><td>16:50&ndash;17:10</td><td><strong>Close, Reflection &amp; Transfer Plan</strong></td><td>Start/Stop/First Opportunity reflection. Accountability buddy pairing. 30-day transfer plan overview. Evaluation forms. Final close.</td><td>&mdash;</td></tr>
+</table>
+
+<h1>MODULE 1: OPENING &amp; FOUNDATIONS &mdash; AUDIENCE EMPATHY</h1>
+<p><span class="time-badge">09:00 &ndash; 10:15</span> <strong>Duration: 75 minutes</strong></p>
+
+<div class="objective-box">
+<span class="objective-label">Module Learning Objectives</span>
+By the end of this module, participants will be able to:
+<ol>
+    <li>Apply a four-question Audience Empathy framework to any upcoming presentation, meeting, or communication</li>
+    <li>Differentiate the communication needs of at least three distinct stakeholder personas (senior leader, cross-functional peer, technical specialist)</li>
+    <li>Shift their preparation starting point from &ldquo;what I want to say&rdquo; to &ldquo;what they need to hear&rdquo;</li>
+</ol>
+</div>
+
+<h2>1.1 Welcome &amp; Scene Setting (09:00&ndash;09:15 | 15 minutes)</h2>
+
+<h3>Facilitator Set-Up (Before Participants Arrive)</h3>
+<ul>
+    <li>Slide 1 displayed on screen: programme title and &ldquo;Welcome &mdash; please take a seat and write your name on the tent card at your place&rdquo;</li>
+    <li>Background music playing at low volume (optional, creates a welcoming atmosphere)</li>
+    <li>Handout packs placed at each seat</li>
+    <li>Parking Lot flip chart visible with heading written</li>
+</ul>
+
+<h3>Opening Script</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script &mdash; Verbatim Talk Track</span>
+&ldquo;Good morning everyone, and welcome. My name is [FACILITATOR NAME] and I want to start by saying thank you &mdash; thank you for committing a full day to this. I know how busy everyone is, and the fact that you&rsquo;re here tells me something about where you want to go.
+
+Let me set the scene. This is Presentation Skills V3. If you&rsquo;ve attended a version before, you&rsquo;ll notice this is a very different animal. And if this is your first time, you&rsquo;re in exactly the right place.
+
+Here&rsquo;s what this day is <em>not</em> about. It is not about standing up and reading slides. It is not about &lsquo;death by PowerPoint.&rsquo; It is not about memorising scripts.
+
+Here&rsquo;s what it <em>is</em> about. It is about the moments that actually matter in your working life. The meeting where you need to land an idea. The Teams call where you need to hold attention with twelve faces on screen. The leadership presentation where the stakes are high and the audience is sceptical. The interview panel where you&rsquo;ve got twenty minutes to show them who you are. The cross-functional forum where you&rsquo;re representing your entire team.
+
+Those moments happen every single week for most of us. And yet, how many of us have ever had structured development in how to show up in those moments? That is the gap this day fills.
+
+By the end of today, you will have practical tools, frameworks you can use tomorrow, and &mdash; critically &mdash; you will have practised using them in a safe space before you need them for real. Every single one of you will present before you leave this room. And you will leave better than you arrived. That is not a hope &mdash; it is how the day is designed.&rdquo;
+</div>
+
+<h3>Housekeeping &amp; Ground Rules</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;A few quick housekeeping items. Phones on silent, please. If you need to take an urgent call, step out and come back &mdash; no drama. Breaks: morning break at 10:15, lunch at 12:00, afternoon break at 14:15. Facilities are [GIVE DIRECTIONS]. Fire exits are [GIVE DIRECTIONS].
+
+Now, ground rules. I have four:
+
+<strong>One &mdash; Be present.</strong> Not just physically, but mentally. The more you put in today, the more you take out.
+
+<strong>Two &mdash; Be willing to be stretched.</strong> Today involves practice. Some of that will feel uncomfortable. That is by design, not by accident. But I will never put anyone in a position that feels unsafe &mdash; there is a difference between stretch and distress, and I will respect that line.
+
+<strong>Three &mdash; Be generous.</strong> When others are presenting or practising, give them your full attention and your honest, kind feedback. That is a gift.
+
+<strong>Four &mdash; What happens in the room stays in the room.</strong> People are going to try things today that feel vulnerable. This is a practice space, not a performance space. We do not take stories about each other&rsquo;s stumbles outside this room.
+
+Does anyone want to add anything to those? No? Good. Let&rsquo;s move.&rdquo;
+</div>
+
+<h2>1.2 Icebreaker: The 60-Second Spotlight (09:15&ndash;09:45 | 30 minutes)</h2>
+
+<h3>Purpose</h3>
+<p>This activity serves three purposes: (1) it breaks the ice and gets energy into the room; (2) it gives the facilitator a baseline read on each participant&rsquo;s current comfort level and presentation style; (3) it creates a &ldquo;before&rdquo; reference point that can be compared with the capstone at the end of the day.</p>
+
+<div class="activity-box">
+<span class="activity-label">Activity: The 60-Second Spotlight</span>
+<p><strong>Format:</strong> Individual, standing, to the whole group<br>
+<strong>Time:</strong> 60 seconds per person + brief facilitator comment<br>
+<strong>Materials:</strong> Topic cards (pre-prepared, face down on a table)</p>
+
+<p><strong>Instructions to give participants:</strong></p>
+<ol>
+    <li>Each person will come to the front of the room</li>
+    <li>Pick up a topic card at random &mdash; do NOT look at it until you are facing the group</li>
+    <li>Turn the card over, read the topic, and immediately begin talking for 60 seconds</li>
+    <li>There are no right answers &mdash; this is about how you communicate, not what you know</li>
+    <li>The facilitator will signal when 10 seconds remain and when time is up</li>
+</ol>
+
+<p><strong>Sample Topic Cards (prepare 16+ cards):</strong></p>
+<ul>
+    <li>&ldquo;The best decision you ever made at work&rdquo;</li>
+    <li>&ldquo;Why your team matters&rdquo;</li>
+    <li>&ldquo;Something you changed your mind about&rdquo;</li>
+    <li>&ldquo;A skill everyone should learn&rdquo;</li>
+    <li>&ldquo;What makes a terrible meeting&rdquo;</li>
+    <li>&ldquo;Explain what you do to a 10-year-old&rdquo;</li>
+    <li>&ldquo;The biggest misconception about your role&rdquo;</li>
+    <li>&ldquo;If you could fix one thing at work tomorrow&rdquo;</li>
+    <li>&ldquo;Why [your department] is the best department&rdquo;</li>
+    <li>&ldquo;A piece of advice you wish you&rsquo;d received earlier&rdquo;</li>
+    <li>&ldquo;Your favourite process and why it works&rdquo;</li>
+    <li>&ldquo;Convince us to visit a place you love&rdquo;</li>
+    <li>&ldquo;Something most people don&rsquo;t know about your area of the business&rdquo;</li>
+    <li>&ldquo;The hardest part of your job, and what makes it worth it&rdquo;</li>
+    <li>&ldquo;Describe a moment you were genuinely proud of at work&rdquo;</li>
+    <li>&ldquo;What would you change about how we communicate internally?&rdquo;</li>
+</ul>
+</div>
+
+<div class="script-box">
+<span class="script-label">Facilitator Script &mdash; Setting Up the Activity</span>
+&ldquo;Right, let&rsquo;s get into it straight away. This first activity is called The 60-Second Spotlight. And before anyone panics &mdash; breathe. This is the lowest-stakes thing you will do all day, and I promise it gets easier.
+
+Here is what is going to happen. I have a stack of topic cards here, face down. One at a time, you are going to come up here, pick a card, turn it over, and talk about that topic for 60 seconds. You have zero preparation time. You cannot see your topic until you&rsquo;re standing here facing the group.
+
+Why am I doing this to you? Two reasons. First, because the real-world moments that matter most rarely come with a script. Second, because I want to see where everyone is right now &mdash; not to judge, but so that by the end of today, you can see how far you&rsquo;ve come.
+
+A few pointers: there is no right or wrong answer. If you run out of things to say, that is absolutely fine &mdash; just take a breath and find your next thought. If you go blank, tell us you&rsquo;ve gone blank and then pick up again. Nobody in this room is going to judge you. We are all in the same boat.
+
+Who wants to go first? &hellip; No? That&rsquo;s exactly why we&rsquo;re here. [Smile.] I&rsquo;ll go first to show you how it works.&rdquo;
+</div>
+
+<div class="tip-box">
+<span class="tip-label">Facilitator Tip</span>
+<p><strong>Go first yourself.</strong> Pick a card and model the exercise. Deliberately include a small stumble or pause &mdash; this normalises imperfection and lowers the stakes. After your demo, give a brief self-critique: &ldquo;See &mdash; I hesitated there, I said &lsquo;um&rsquo; twice, and I lost my thread for a second. That&rsquo;s completely normal. Now let&rsquo;s see yours.&rdquo;</p>
+<p><strong>After each participant:</strong> Give one brief, specific positive observation only at this stage. Save developmental feedback for later. Examples: &ldquo;Great energy, I loved the example you used,&rdquo; or &ldquo;Really nice eye contact &mdash; you connected with the whole room there.&rdquo;</p>
+<p><strong>Keep the energy up:</strong> Applause after each speaker. Keep the pace brisk. If the group is large (12+), limit to volunteers and a random selection of 10&ndash;12.</p>
+</div>
+
+<div class="inclusion-box">
+<span class="inclusion-label">Inclusivity Adaptation</span>
+<p>If a participant is visibly anxious or declines, do not force them. Offer: &ldquo;Would you like to pick two cards and choose the one you prefer?&rdquo; or &ldquo;Would it feel better to present to me and one other person during the break?&rdquo; Many will join in voluntarily once they see others succeed. If a participant has a speech difference, allow them to complete their full 60 seconds without interruption and give the same positive feedback as everyone else.</p>
+</div>
+
+<h2>1.3 Teaching Block: Audience Empathy (09:45&ndash;10:15 | 30 minutes)</h2>
+
+<h3>Context Setting</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Brilliant. Thank you all for doing that &mdash; every single one of you just stood up and talked in front of a room, and that takes guts. We are going to come back to the skills behind that throughout the day.
+
+But first, I want to talk about something that comes <em>before</em> you ever open your mouth. Something that, if you get it wrong, means it almost does not matter how polished your delivery is. And that something is <strong>audience empathy</strong>.
+
+Let me ask you a question. When you are preparing for a presentation, a pitch, a meeting &mdash; what is the first thing most people think about? [Pause for responses.]
+
+Most people start with: &lsquo;What do I want to say?&rsquo; They start with their own content, their own data, their own agenda. And that is completely natural &mdash; but it is exactly the wrong starting point.
+
+The shift I want you to make today &mdash; and carry forward forever &mdash; is this: start with <strong>&lsquo;What do they need to hear?&rsquo;</strong>
+
+That is a fundamentally different question. It means you are no longer broadcasting. You are connecting. You are no longer dumping information. You are solving a problem for your audience.
+
+Think about the last time you sat in a presentation that did not land. Chances are, the presenter was talking about what <em>they</em> cared about, in the language <em>they</em> understood, at the level of detail <em>they</em> thought was important. And none of those things matched what <em>you</em> actually needed.&rdquo;
+</div>
+
+<h3>The Audience Empathy Framework</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;So how do you actually do this? I am going to give you a simple framework that works in any context &mdash; whether you are presenting to your direct team, pitching to a senior leadership group, running a cross-functional meeting, or walking into a job interview.
+
+It has four questions. Before you build any content, before you write a single slide, answer these:
+
+<strong>Question 1: Who is in the room?</strong> Not just names and titles &mdash; think about their priorities, their pressures, their level of knowledge on your topic, and what they are going to do with the information you give them.
+
+<strong>Question 2: What do they already know?</strong> If you are presenting to a technical team, you do not need to explain the basics. If you are presenting to a leadership group who are three levels removed from the detail, you do. Getting this wrong wastes everyone&rsquo;s time.
+
+<strong>Question 3: What do they need to decide or do after this?</strong> Every communication should lead somewhere. If your audience walks out and thinks &lsquo;that was interesting&rsquo; but takes no action, you have failed. What is the outcome you are driving toward?
+
+<strong>Question 4: What is the one thing they must remember?</strong> If they forget 90% of what you said &mdash; and they will &mdash; what is the 10% that has to stick?
+
+I want you to write those four questions down. They go on the first page of every preparation you do from today onwards.&rdquo;
+</div>
+
+<h3>Stakeholder Personas</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now let me make this practical. Different audiences need different things, and part of audience empathy is understanding those differences.
+
+Let me walk you through three personas you will encounter constantly at Tesla:
+
+<strong>The Senior Leader.</strong> They are time-poor. They have six meetings after yours. They want the headline, the recommendation, and the risk &mdash; in that order. They do not want the journey of how you got there. They do not want 40 slides. They want: &lsquo;Here is what we should do, here is why, here is what happens if we don&rsquo;t.&rsquo; If they want more detail, they will ask.
+
+<strong>The Cross-Functional Peer.</strong> They have their own priorities and their own context. They are thinking: &lsquo;How does this affect my team? What are you asking me to do? Is this going to create more work for me?&rsquo; You need to speak to their world, not just yours.
+
+<strong>The Technical Specialist.</strong> They want the detail. They want the methodology. They want to understand the &lsquo;how.&rsquo; But they also want to know you have not cut corners. Credibility here comes from showing your working, not just your conclusion.
+
+Same message, three completely different deliveries. That is audience empathy in action.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: Stakeholder Mapping Exercise (10 minutes)</span>
+<p><strong>Format:</strong> Pairs or groups of three<br>
+<strong>Materials:</strong> Handout &mdash; Audience Empathy Worksheet (Appendix B), pens</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;Pair up. Think of a real presentation, pitch, or meeting that you have coming up in the next few weeks &mdash; or one you did recently that did not land the way you wanted. Using the four questions on your handout, map out your audience. Who is in the room? What do they already know? What do they need to decide or do? What is the one thing they must remember?
+
+You have 7 minutes. Then I am going to ask two or three pairs to share what they found. Go.&rdquo;
+
+<p><strong>Debrief (3 minutes):</strong> Ask 2&ndash;3 pairs to share. Listen for examples where the participant realised they had been focusing on the wrong things. Reinforce the shift from &ldquo;what I want to say&rdquo; to &ldquo;what they need to hear.&rdquo;</p>
+</div>
+
+<div class="transition-box">
+<span class="transition-label">Transition to Break</span>
+&ldquo;Excellent. You have just done something most people never do &mdash; you have actually thought about your audience before you thought about your content. Hold onto that framework because it underpins everything else we do today. Take 15 minutes &mdash; grab a coffee, stretch your legs &mdash; and be back at 10:30 sharp because the next module is where things start to get really interesting.&rdquo;
+</div>
+
+
+<h1>MODULE 2: STRATEGIC STORYTELLING &amp; MAKING THE COMPLEX SIMPLE</h1>
+<p><span class="time-badge">10:30 &ndash; 12:00</span> <strong>Duration: 90 minutes</strong></p>
+
+<div class="objective-box">
+<span class="objective-label">Module Learning Objectives</span>
+By the end of this module, participants will be able to:
+<ol>
+    <li>Structure any business message using the SCR+BN (Situation, Complication, Resolution, Benefit, Next Step) narrative framework</li>
+    <li>Apply the &ldquo;So What?&rdquo; test to filter data from meaning in their communications</li>
+    <li>Use the Pyramid Principle to lead with the answer and structure supporting arguments top-down</li>
+    <li>Conduct a Jargon Audit to remove barriers to clarity in cross-functional contexts</li>
+    <li>Distil a complex piece of work into a single-slide summary that passes the Billboard Test</li>
+</ol>
+</div>
+
+<h2>2A: Strategic Storytelling (10:30&ndash;11:15 | 45 minutes)</h2>
+
+<h3>Module Opening</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Welcome back. Let me start this module with a question: what is the difference between a presentation that people sit through and a presentation that people remember?
+
+[Pause for responses.]
+
+The answer, almost always, is story. Human beings are not wired to remember bullet points. We are wired to remember narratives. We remember the journey, the conflict, the resolution, the person at the centre of it. And yet, most professional presentations are structured like a data dump: here are the facts, here is the chart, here is the next chart, here is another chart, any questions?
+
+That is not communication. That is a filing exercise delivered out loud.
+
+Strategic storytelling is the ability to translate complex data or abstract concepts into a compelling narrative. It is the ability to show a clear path forward that people can buy into. And notice I said &lsquo;buy into&rsquo; &mdash; not just &lsquo;understand.&rsquo; Because understanding is passive. Buying in is active. And if you want people to make decisions, change behaviour, or support your initiative, you need them to buy in.&rdquo;
+</div>
+
+<h3>The Narrative Arc for Business</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now, I am not asking you to become novelists. But I am asking you to steal the structure that novelists use, because it works. Here is a simple narrative arc adapted for the business world. I call it the <strong>SCR framework: Situation, Complication, Resolution.</strong>
+
+<strong>Situation:</strong> Set the scene. Where are we now? What is the context your audience needs to understand? This should be brief and factual. &lsquo;We currently process 4,000 service requests per month across three regions.&rsquo;
+
+<strong>Complication:</strong> Introduce the tension. What is the problem, the challenge, the change, the risk? This is where you create urgency. &lsquo;In the last quarter, average resolution time has increased by 22%, and customer satisfaction scores have dropped below target for the first time in eighteen months.&rsquo;
+
+<strong>Resolution:</strong> Deliver the answer. This is your recommendation, your proposal, your plan. &lsquo;We are proposing a three-phase restructure of the triage process that will bring resolution times back to target within 60 days.&rsquo;
+
+That is it. Situation. Complication. Resolution. It takes thirty seconds to deliver, and it is infinitely more compelling than: &lsquo;So I&rsquo;ve been asked to present some data on service requests&hellip; let me start with slide one of thirty-seven.&rsquo;
+
+Let me show you one more layer. After Resolution, you can add <strong>Benefit</strong>: what does the audience gain if they support this? And <strong>Next Step</strong>: what specifically are you asking them to do?
+
+So the full flow becomes: <strong>Situation &rarr; Complication &rarr; Resolution &rarr; Benefit &rarr; Next Step.</strong>&rdquo;
+</div>
+
+<h3>The &ldquo;So What?&rdquo; Test</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Here is a tool that will save you from the most common storytelling mistake: the &lsquo;So What?&rsquo; Test.
+
+After every statement, every data point, every slide, ask yourself: &lsquo;So what?&rsquo; If you cannot answer that question &mdash; if you cannot explain why this piece of information matters to your audience &mdash; cut it. It does not belong in your main narrative.
+
+Let me give you an example:
+
+&lsquo;We completed 147 training sessions last quarter.&rsquo; &mdash; So what?
+&lsquo;That is a 23% increase on the previous quarter.&rsquo; &mdash; So what?
+&lsquo;This means we are now on track to close the skills gap in our frontline team by Q3, which directly supports the customer satisfaction target the leadership team signed off.&rsquo; &mdash; <em>Now</em> I care.
+
+The first two statements are data. The third statement is meaning. And meaning is what your audience is buying.&rdquo;
+</div>
+
+<div class="video-box">
+<span class="video-label">Video Exemplar: Storytelling in Action (3 minutes)</span>
+<p><strong>Cue:</strong> Play the pre-selected video clip showing a strong business narrative delivery. See Appendix E for sourcing options and cue points.</p>
+<p><strong>Facilitator lead-in:</strong> &ldquo;Let me show you what this looks like in practice. Watch how this speaker sets up the situation, introduces the tension, and lands the resolution &mdash; all in under two minutes. Pay attention to how they make the data serve the story, not the other way around.&rdquo;</p>
+<p><strong>After the clip:</strong> &ldquo;What did you notice? Where was the situation? Where was the complication? And did you hear a clear resolution? [Facilitate brief discussion &mdash; 2 minutes.]&rdquo;</p>
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: Story Spine Exercise (15 minutes)</span>
+<p><strong>Format:</strong> Groups of 3&ndash;4<br>
+<strong>Materials:</strong> Flip chart paper, markers, scenario cards</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;Get into groups of three or four. Each group is going to receive a scenario card. It will describe a business situation &mdash; a problem, a project, a decision that needs to be made. Your job as a group is to craft a 90-second narrative using the SCR+BN framework: Situation, Complication, Resolution, Benefit, Next Step. Write the key beats on flip chart paper.
+
+You have 10 minutes to prepare. Then one person from each group will deliver it to the room. And here is the rule: no jargon, no acronyms, and no more than five bullet points on your flip chart. If a 15-year-old would not understand your headline, it is too complex.&rdquo;
+
+<p><strong>Scenario Card Examples:</strong></p>
+<ul>
+    <li><strong>Scenario A:</strong> Your team has identified that the current onboarding process for new hires takes an average of 6 weeks, compared to a target of 3 weeks. You have a proposal to redesign it. Present this to the Head of Operations.</li>
+    <li><strong>Scenario B:</strong> Customer complaint volumes have risen 15% quarter-on-quarter. Your analysis suggests 60% relate to communication gaps between two departments. You need cross-functional buy-in for a joint fix. Present to both department heads.</li>
+    <li><strong>Scenario C:</strong> You have identified a tool that could automate a manual reporting process, saving approximately 12 hours per week. It requires a &pound;15,000 investment. Present the business case to the finance lead and your director.</li>
+    <li><strong>Scenario D:</strong> A key team member has resigned, and you want to restructure the team rather than do a like-for-like replacement. Present your case to your line manager and HR business partner.</li>
+</ul>
+
+<p><strong>Debrief (5 minutes):</strong> After each group presents, ask the room: &ldquo;Did they pass the &lsquo;So What?&rsquo; test? Could you follow the story? Did you know what they were asking for?&rdquo; Celebrate strong examples. Coach where the narrative got lost in detail.</p>
+</div>
+
+<h2>2B: Making the Complex Simple (11:15&ndash;12:00 | 45 minutes)</h2>
+
+<h3>Module Opening</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;That was excellent. You have just seen how structure transforms a random collection of facts into something people can follow and act on. Now we are going to go one level deeper into a skill that separates good communicators from great ones: <strong>making the complex simple</strong>.
+
+Let me tell you something uncomfortable. One of the biggest barriers to effective communication in any organisation is not a lack of knowledge. It is an excess of it. The people who know the most about a subject are often the worst at explaining it, because they cannot resist going deep. They cannot resist showing all of their working. They cannot resist the seventeen caveats, the three exceptions, and the backstory that explains why the data looks like it does.
+
+And while they are doing all of that, their audience has mentally checked out and is thinking about lunch.
+
+Making the complex simple is not about dumbing things down. Let me be very clear about that. It is about filtering. It is about having the discipline to deliver headlines first and save the granular detail for the appendix or the Q&amp;A. It is about respecting your audience&rsquo;s time and cognitive load.&rdquo;
+</div>
+
+<h3>The Pyramid Principle</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;The most powerful tool I can give you for this is something called the <strong>Pyramid Principle</strong>. It was developed by Barbara Minto at McKinsey, and it is used by every major consulting firm in the world. Here is the core idea:
+
+<strong>Start with the answer. Then provide the supporting arguments. Then &mdash; only if asked &mdash; provide the data behind each argument.</strong>
+
+Picture an upside-down pyramid. At the very top, the widest point, is your conclusion or recommendation. Underneath that are your three or four supporting reasons. Underneath each of those is the evidence or data.
+
+Most people present bottom-up. They start with the data, build through the analysis, and eventually &mdash; if they have not run out of time &mdash; arrive at a recommendation on slide thirty-two. By which point their audience is frustrated, confused, or asleep.
+
+Top-down communication is the opposite. You lead with the answer: &lsquo;We should do X.&rsquo; Then you say why: &lsquo;For three reasons.&rsquo; Then you give the three reasons. And if anyone wants to drill into the data behind reason two, they can ask &mdash; or you can point them to the appendix.
+
+This works everywhere. In an email. In a 5-minute stand-up. In a 30-minute leadership presentation. In a job interview answer. Lead with the headline. Support it. Stop talking.&rdquo;
+</div>
+
+<h3>The Jargon Audit</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;One more thing on simplicity, and this is a quick but important one: jargon.
+
+Every function, every team, every department has its own language. And when we are inside that world, those terms feel completely natural to us. But the moment we step outside &mdash; into a cross-functional meeting, a leadership review, an interview &mdash; that language becomes a barrier.
+
+I want you to develop a habit I call the <strong>Jargon Audit</strong>. Before any important communication, read through your content and highlight every technical term, acronym, or piece of shorthand. Then ask yourself: &lsquo;Would everyone in my audience understand this instantly, without explanation?&rsquo; If the answer is no, translate it or remove it.
+
+This is not about being patronising. This is about being clear. And clarity is a sign of confidence, not a sign of simplicity.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: The One-Slide Challenge (20 minutes)</span>
+<p><strong>Format:</strong> Individual, then share with a partner<br>
+<strong>Materials:</strong> Handout &mdash; One-Slide Challenge Worksheet (Appendix B), pens</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;Here is your challenge. Think of a project, initiative, or piece of work you are currently involved in. Something that is reasonably complex &mdash; maybe it spans multiple teams, has multiple phases, involves data.
+
+Your task is to distil that entire piece of work into <strong>one slide</strong>. Not a real PowerPoint slide right now &mdash; use the template on your worksheet. You have:
+<ul>
+    <li>One headline (maximum 10 words)</li>
+    <li>Three supporting bullets (maximum 15 words each)</li>
+    <li>One &lsquo;ask&rsquo; or next step (maximum one sentence)</li>
+</ul>
+
+That is it. The entire message on one page. You have 10 minutes. Then you will show your partner, and they will tell you: can they understand it without any extra explanation? If not, it is not simple enough yet.&rdquo;
+
+<p><strong>Debrief (5 minutes):</strong> Ask 2&ndash;3 volunteers to share. Facilitate a discussion: &ldquo;What did you have to cut? What was hardest to leave out?&rdquo; Reinforce that editing is a skill, and the discipline of simplification is what separates good communicators from average ones.</p>
+</div>
+
+<div class="transition-box">
+<span class="transition-label">Transition to Lunch</span>
+&ldquo;Fantastic work this morning. Let me quickly recap what we have covered: we started with audience empathy &mdash; starting with what <em>they</em> need, not what <em>you</em> want. We moved into strategic storytelling &mdash; using the SCR framework to build narratives that drive action. And we have just covered making the complex simple &mdash; leading with the headline, using the Pyramid Principle, and ruthlessly cutting jargon.
+
+This afternoon, we are going to shift gears. We have been talking about <em>what</em> you say and <em>how you structure</em> it. After lunch, we focus on <em>how you deliver</em> it &mdash; your voice, your presence, your body language, how you show up on camera, and how you handle the room. That is where it gets really fun.
+
+Lunch is one hour. Please be back at 13:00. Enjoy.&rdquo;
+</div>
+
+
+<h1>MODULE 3: EXECUTIVE PRESENCE, VIRTUAL PRESENCE &amp; BUSINESS CASES</h1>
+<p><span class="time-badge">13:00 &ndash; 14:15</span> <strong>Duration: 75 minutes</strong></p>
+
+<div class="objective-box">
+<span class="objective-label">Module Learning Objectives</span>
+By the end of this module, participants will be able to:
+<ol>
+    <li>Demonstrate vocal variety (pace, volume, pitch) and at least one deliberate strategic pause in a live delivery</li>
+    <li>Adopt confident physicality: grounded posture, purposeful gestures, and &ldquo;lighthouse&rdquo; eye contact</li>
+    <li>Apply at least one evidence-based technique for managing nerves before a high-stakes moment</li>
+    <li>Deliver a compelling opening to camera on a Microsoft Teams call, applying virtual-specific presence techniques</li>
+    <li>Structure a persuasive business case or pitch using the PREP framework (Point, Reason, Example, Point)</li>
+</ol>
+</div>
+
+<h2>Post-Lunch Energiser &amp; Reconnect (13:00&ndash;13:10 | 10 minutes)</h2>
+
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Welcome back everyone. Before we dive into the afternoon, let&rsquo;s shake off the lunch fog. Stand up, please. Everyone up.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Energiser: Stand &amp; Deliver Recap (8 minutes)</span>
+<p><strong>Format:</strong> Whole group, standing in a circle</p>
+<p><strong>Instructions:</strong> Each participant, going around the circle, must share ONE key takeaway from the morning in exactly ONE sentence. No more, no less. The facilitator goes first to model.</p>
+<p><strong>Purpose:</strong> Reinforces morning content, gets everyone back into a verbal/present mode, and practises the &ldquo;headline-first&rdquo; principle from Module 2B.</p>
+</div>
+
+<div class="script-box">
+<span class="script-label">Facilitator Script &mdash; Transition</span>
+&ldquo;Brilliant. Notice what just happened &mdash; every one of you just captured a complex learning experience in one sentence. That is the Pyramid Principle in action. You have already started using it without thinking about it. That is progress.
+
+Now. This afternoon is about the <em>other half</em> of communication. This morning we worked on content and structure: what you say and how you organise it. This afternoon, we work on delivery: how you say it, how you carry yourself, how you show up on a screen, and how you hold a room. This is where we talk about <strong>executive presence</strong>.&rdquo;
+</div>
+
+<h2>3A: Executive Presence &amp; Public Speaking (13:10&ndash;13:50 | 40 minutes)</h2>
+
+<h3>Defining Executive Presence</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Let me start with a question. Think of someone &mdash; it can be anyone, inside or outside Tesla &mdash; who has what you would describe as &lsquo;presence.&rsquo; Someone who, when they walk into a room or start speaking, people naturally pay attention. Got someone? Good.
+
+Now think about <em>why</em>. What is it about them? Is it their voice? Their posture? Their confidence? The way they pause? The way they make eye contact?
+
+Here is the truth about executive presence: <strong>it is not a personality trait. It is a set of behaviours.</strong> And because they are behaviours, they can be learned, practised, and developed. Nobody is born with it. The people who have it have simply practised it &mdash; consciously or unconsciously &mdash; more than the people who have not.
+
+Today, I am going to break it down into four components that you can work on individually and start improving immediately.&rdquo;
+</div>
+
+<div class="video-box">
+<span class="video-label">Video Exemplar: Presence Contrast Clip (4 minutes)</span>
+<p><strong>Cue:</strong> Play two clips back-to-back. Clip A shows a flat, monotone delivery with poor body language (fidgeting, no pauses, reading from notes). Clip B shows the same content delivered with vocal variety, strategic pauses, grounded posture, and strong eye contact. See Appendix E for sourcing options.</p>
+<p><strong>Facilitator lead-in:</strong> &ldquo;I am going to show you two clips. Same content, two completely different deliveries. As you watch, notice what specific behaviours change between the first and the second.&rdquo;</p>
+<p><strong>After the clips:</strong> &ldquo;What did you see? What was different? [Facilitate a brief discussion, drawing out specific observations about voice, posture, pace, pauses, eye contact. Write them on the flip chart &mdash; this becomes your reference list for the teaching that follows.]&rdquo;</p>
+</div>
+
+<h3>The Four Pillars of Presence</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;<strong>Pillar One: Vocal Variety.</strong>
+
+Your voice is the primary instrument of delivery, and most people use about 10% of its range. They speak in a monotone, at the same pace, at the same volume, for the entire duration. And the audience tunes out within two minutes.
+
+Three vocal tools:
+
+<strong>Pace:</strong> Slow down for emphasis. Speed up for energy. The contrast is what creates interest. When you are making your most important point, slow right down. Let each word land.
+
+<strong>Volume:</strong> You do not need to shout. But you do need to project. And more importantly, you can use volume contrast. Drop your voice to draw people in. Raise it slightly to signal energy or urgency. A whisper can be more powerful than a shout if the audience has to lean forward to hear you.
+
+<strong>Pitch:</strong> Vary the musicality of your voice. A flat pitch signals boredom. Rising pitch at the end of statements turns every sentence into a question and undermines your authority. Dropping your pitch at the end of a statement signals confidence and finality.
+
+<strong>Pillar Two: The Strategic Pause.</strong>
+
+This is the single most underused tool in public speaking. Most people are terrified of silence. They fill every gap with &lsquo;um,&rsquo; &lsquo;er,&rsquo; &lsquo;so,&rsquo; &lsquo;yeah,&rsquo; &lsquo;kind of.&rsquo; But a deliberate pause does three things: it gives your audience time to absorb what you just said; it signals confidence &mdash; because only confident speakers can tolerate silence; and it gives you time to think, to breathe, and to land your next sentence with intention.
+
+Try this: after you make a key point&hellip; [FACILITATOR PAUSES FOR 3 FULL SECONDS, MAKING EYE CONTACT AROUND THE ROOM] &hellip;pause. Let it breathe. Let it land.
+
+See what just happened? That silence made you lean in. Use that.
+
+<strong>Pillar Three: Physicality and Body Language.</strong>
+
+Your body is communicating whether you want it to or not. So you might as well make it communicate what you intend.
+
+<strong>Posture:</strong> Stand or sit tall, shoulders back, weight evenly distributed. No swaying, no leaning, no crossed arms. This signals stability and confidence.
+
+<strong>Hands:</strong> Use them purposefully. Gestures add energy and help illustrate points. But avoid fidgeting, pen-clicking, hair-touching, or putting your hands in your pockets. Rest position: hands loosely at your sides or held gently in front of you at waist height.
+
+<strong>Eye Contact:</strong> Connect with individuals, not the room as a whole. Hold eye contact with one person for a full thought or sentence, then move to another. This is called &lsquo;lighthouse&rsquo; eye contact. It makes each person feel included and seen.
+
+<strong>Movement:</strong> If you are standing, move with purpose. Step forward to emphasise a point. Step to the side to signal a transition. Do not pace aimlessly.
+
+<strong>Pillar Four: Managing Nerves.</strong>
+
+Let me normalise something: nervousness is not a problem to be eliminated. It is energy to be channelled. Every experienced speaker still feels nervous. The difference is they have learned to use it, not be controlled by it.
+
+Three practical techniques:
+
+<strong>Box Breathing:</strong> Before you present, breathe in for four counts, hold for four counts, out for four counts, hold for four counts. Repeat three times. This physiologically calms your nervous system. This is well-established in clinical research and used by everyone from military special forces to elite athletes.
+
+<strong>Pre-Performance Reset:</strong> In the two minutes before you present, stand tall, take up space, put your shoulders back, and take several slow breaths. Many speakers find that adopting an expansive, confident posture beforehand helps them carry that physical confidence into the room. Whether the effect is psychological or physiological, the practical result is the same &mdash; you walk in feeling more grounded.
+
+<strong>Reframe the Narrative:</strong> Instead of telling yourself &lsquo;I am nervous,&rsquo; tell yourself &lsquo;I am ready.&rsquo; The physiological symptoms are identical &mdash; elevated heart rate, heightened focus, adrenaline. The only difference is the story you attach to them. This reappraisal technique is supported by research from Harvard Business School and others &mdash; simply relabelling anxiety as excitement measurably improves performance.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: The Power Opener Drill (10 minutes)</span>
+<p><strong>Format:</strong> Pairs, standing, facing each other<br>
+<strong>Materials:</strong> None</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;Pair up. You are going to practise the <strong>Power Opener</strong> &mdash; the first 15 seconds of a presentation. Because those first 15 seconds determine whether your audience leans in or checks out.
+
+<ol>
+    <li>Stand facing your partner as if they are your audience</li>
+    <li>Set yourself: plant your feet, take a breath, make eye contact</li>
+    <li>Deliver the opening of a presentation &mdash; it can be anything: a project update, a pitch, a team briefing</li>
+    <li>Your opening must be no more than 3 sentences. Deliver them with full vocal variety, at least one deliberate pause, and strong eye contact</li>
+    <li>Your partner gives feedback: ONE thing that worked, ONE thing to try differently</li>
+    <li>Switch roles and repeat. Do this three times each, incorporating feedback each round</li>
+</ol>
+
+You have 10 minutes. I am going to walk around and coach. Go.&rdquo;
+
+<p><strong>Debrief (2 minutes):</strong> &ldquo;What changed between your first attempt and your third?&rdquo; Reinforce that presence is a muscle &mdash; it gets stronger with repetition.</p>
+</div>
+
+<h2>3B: Virtual Presence &amp; Business Cases (13:50&ndash;14:15 | 25 minutes)</h2>
+
+<h3>Virtual Presence: Showing Up on Camera</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now let me address something that was not in V1 or V2 of this programme, and it is one of the most important additions: <strong>virtual presence</strong>.
+
+Raise your hand if you spend more than two hours a day on Microsoft Teams calls. [Expect most hands.] Right. So for many of you, the majority of your high-stakes communication happens through a screen. And yet, almost nobody has been taught how to be effective on camera.
+
+Here is the problem: everything we just covered about physical presence &mdash; posture, movement, eye contact, gestures &mdash; is either invisible or distorted on a Teams call. The camera only shows you from the chest up. The microphone compresses your vocal range. The screen flattens your energy. Lag makes pauses feel awkward instead of powerful.
+
+So you need a different set of tools for virtual delivery. Here are five:
+
+<strong>1. Camera is Eye Contact.</strong> When you are making your most important point, look at the camera lens, not the screen. Looking at the screen means you are looking slightly downward, which reads as disengaged. Looking at the camera lens is the virtual equivalent of direct eye contact. This is hard at first because it feels unnatural. Practice it.
+
+<strong>2. Energy Up 20%.</strong> The screen flattens energy. What feels &lsquo;normal&rsquo; in person reads as flat and low-energy on camera. You need to consciously increase your vocal energy, facial expressiveness, and pace variation by about 20% compared to in-person delivery. It will feel slightly exaggerated to you but it will land as natural to your audience.
+
+<strong>3. Frame Yourself Properly.</strong> Head and shoulders visible, eyes roughly one-third from the top of the frame. Adequate lighting on your face, not behind you. A clean, uncluttered background. These are basic but the number of people on senior calls with half their forehead cut off and a pile of laundry behind them is remarkable.
+
+<strong>4. Use the Chat and Reactions Strategically.</strong> You cannot read body language on a virtual call the way you can in person. So you need to actively create feedback loops. Ask questions in the chat. Use polls. Call on people by name. &lsquo;Priya, I can see you nodding &mdash; what&rsquo;s your take?&rsquo; This is virtual active listening.
+
+<strong>5. Manage Screen-Share Transitions.</strong> The moment you share your screen, your face shrinks to a thumbnail and you lose all visual connection. Before you share, set up the context verbally. While sharing, increase your vocal energy to compensate for the loss of visual presence. When making a key point, stop sharing briefly so your face comes back &mdash; it is a powerful contrast tool.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: The Teams Camera Drill (8 minutes)</span>
+<p><strong>Format:</strong> Individual, using facilitator&rsquo;s second device as &ldquo;the audience&rdquo;<br>
+<strong>Materials:</strong> Facilitator&rsquo;s second laptop/tablet with Teams open, projected on the main screen so the room can see what the camera sees</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;We are going to do a rapid-fire camera drill. I have a Teams call open on this device, and it is projected on the screen so we can all see what the camera sees.
+
+One at a time, you are going to sit at this laptop, look at the camera, and deliver a 30-second Power Opener &mdash; the same format we just practised, but this time to camera.
+
+The rest of the room watches the projected screen &mdash; not the person directly, but how they come across on camera. After each delivery, the room gives one piece of feedback: what landed on screen, and what got lost.
+
+We will do 4&ndash;5 people in quick succession. Who is up first?&rdquo;
+
+<p><strong>Key coaching points to listen for:</strong> Looking at screen instead of camera lens. Energy dropping on camera. Fidgeting that is invisible in person but distracting on screen. Framing too close or too far. Flat facial expression that reads as disengaged.</p>
+
+<p><strong>Debrief (2 minutes):</strong> &ldquo;What surprised you about how you came across on camera versus how it felt? That gap is exactly why we practise this.&rdquo;</p>
+</div>
+
+<h3>The PREP Framework &amp; Business Cases</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now we are going to merge the morning&rsquo;s content work with the afternoon&rsquo;s delivery skills. This is about <strong>business cases, pitches, and structured discussions</strong> &mdash; the moments where you are actively persuading someone to take action, invest, or change course.
+
+I am going to give you a framework called <strong>PREP</strong>:
+
+<strong>P &mdash; Point:</strong> State your position or recommendation clearly and immediately. &lsquo;I am recommending we invest in X.&rsquo;
+
+<strong>R &mdash; Reason:</strong> Explain why. Give your supporting logic. &lsquo;Because our current approach is costing us Y in lost productivity, and this solution has been validated by Z.&rsquo;
+
+<strong>E &mdash; Example:</strong> Make it real. Give a concrete example, a case study, an analogy, or a data point. &lsquo;For example, when Site A piloted this approach last quarter, they saw a 30% improvement in turnaround time within six weeks.&rsquo;
+
+<strong>P &mdash; Point (restated):</strong> Come back to your recommendation to close the loop. &lsquo;That is why I am recommending we invest in X, and I am asking for your approval to proceed.&rsquo;
+
+For bigger, more formal business cases, use the <strong>five-box model</strong>:
+
+<strong>Box 1: Context &amp; Problem Statement.</strong> What is the situation? Keep this to 2&ndash;3 sentences maximum.
+
+<strong>Box 2: Proposed Solution.</strong> Be specific. Not &lsquo;we should look into&rsquo; but &lsquo;I am proposing we do X, by Y date, with Z resources.&rsquo;
+
+<strong>Box 3: Cost and Resources.</strong> Be honest. The fastest way to lose credibility is to understate the cost.
+
+<strong>Box 4: Expected Outcome &amp; Benefit.</strong> Quantify wherever possible.
+
+<strong>Box 5: Risk &amp; Mitigation.</strong> What could go wrong, and what have you already thought about to manage it? This box separates a mature, credible presentation from a naive one.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: The 3-Minute Business Case (10 minutes)</span>
+<p><strong>Format:</strong> Pairs<br>
+<strong>Materials:</strong> Handout &mdash; Business Case Template (Appendix B)</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;Pair up &mdash; different partner from last time. Each of you will prepare and deliver a <strong>3-minute business case</strong> using either PREP or the five-box model. Choose a real-world scenario &mdash; something you have been wanting to pitch or propose. If nothing comes to mind, use a practice scenario from the handout.
+
+You have 3 minutes to prepare. Then deliver to your partner &mdash; standing up, full delivery, using everything we have covered today. Your partner plays the decision-maker. After the 3 minutes, the &lsquo;decision-maker&rsquo; gives feedback: Was the ask clear? Was the case compelling? Did the delivery have presence?
+
+Switch and repeat.&rdquo;
+
+<p><strong>Debrief (2 minutes):</strong> &ldquo;What felt different about structuring your case this way compared to how you would normally do it?&rdquo;</p>
+</div>
+
+<div class="transition-box">
+<span class="transition-label">Transition to Break</span>
+&ldquo;Excellent work. You now have frameworks for structuring your message, techniques for delivering it with presence &mdash; both in person and on camera &mdash; and a persuasive model for business cases. After the break, we tackle the visual side: PowerPoint and visual content design. Because even the best-structured, best-delivered presentation can be undermined by terrible slides. Fifteen minutes &mdash; back at 14:30.&rdquo;
+</div>
+
+
+<h1>MODULE 4: POWERPOINT &amp; VISUAL CONTENT DESIGN</h1>
+<p><span class="time-badge">14:30 &ndash; 15:10</span> <strong>Duration: 40 minutes</strong></p>
+
+<div class="objective-box">
+<span class="objective-label">Module Learning Objectives</span>
+By the end of this module, participants will be able to:
+<ol>
+    <li>Identify and avoid the seven most common slide design failures (&ldquo;Seven Slide Sins&rdquo;)</li>
+    <li>Apply the Billboard Test to evaluate whether a slide communicates its message in under 3 seconds</li>
+    <li>Redesign a data-heavy or text-heavy slide using five core design principles</li>
+    <li>Write slide headlines that state the insight or takeaway, not merely describe the content</li>
+</ol>
+</div>
+
+<h2>Module Opening</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Welcome back. Let me start with a question: who here has sat through a presentation where the slides actively made the presentation worse? [Pause &mdash; expect every hand.] Right. All of us.
+
+And how many of you would admit that your own slides might occasionally fall into that category? [Pause &mdash; expect guilty smiles.]
+
+Here is the thing about PowerPoint: it is the most widely used presentation tool on the planet, and it is also the most widely misused. People use it as a script. They use it as a document. They use it as a data dump. They use it as a safety blanket. And in all of those cases, it is working against them, not for them.
+
+The purpose of a slide is not to contain your presentation. The purpose of a slide is to <strong>support and amplify</strong> what you are saying. If a slide is distracting, confusing, or competing with your voice for attention, it is failing.
+
+This module gives you principles that make your visual content work <em>for</em> you instead of against you.&rdquo;
+</div>
+
+<h2>The Seven Slide Sins</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Let us name the enemy. The <strong>Seven Slide Sins</strong>:
+
+<strong>Sin 1: The Wall of Text.</strong> Paragraphs of text that the presenter reads verbatim. If the audience can read your slide faster than you can say it, you have become redundant.
+
+<strong>Sin 2: The Data Overload.</strong> A chart with so much data that nobody can make sense of it. If you need a magnifying glass to read the axis labels, the slide is not working.
+
+<strong>Sin 3: The Clip Art Graveyard.</strong> Irrelevant stock images or decorative elements that add no meaning. Every visual element should earn its place.
+
+<strong>Sin 4: The Font Festival.</strong> Five fonts, six colours, inconsistent sizing. Visual chaos signals a lack of discipline.
+
+<strong>Sin 5: The Agenda That Lasts Forever.</strong> A detailed agenda slide with twelve bullet points. Tell them what they will gain, not what you have planned.
+
+<strong>Sin 6: The Transition Theatre.</strong> Slides that fly in, spin, bounce, or dissolve. Unless you are making a music video, these add nothing.
+
+<strong>Sin 7: The Orphan Slide.</strong> A slide that is in the deck &lsquo;for completeness&rsquo; but is never discussed. Move it to the appendix.&rdquo;
+</div>
+
+<h2>Five Design Principles</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now the antidote. Five principles:
+
+<strong>Principle 1: The Billboard Test.</strong> Imagine your slide on a billboard by a motorway. If someone driving past at 70mph cannot understand the main message in 3 seconds, your slide is too complex.
+
+<strong>Principle 2: One Slide, One Idea.</strong> Each slide should communicate one key point. Not three. Not five. One. Slides are free.
+
+<strong>Principle 3: Visualise, Don&rsquo;t Verbalise.</strong> If you can show it with an image, a chart, or a diagram, do that instead of writing it in words. The audience reads the slide. They listen to you. If both are doing the same thing, one is redundant.
+
+<strong>Principle 4: High Contrast, Clean Layout.</strong> Use white space generously. Align everything. Keep margins consistent. Use no more than two fonts and three colours.
+
+<strong>Principle 5: Tell Them What the Data Means.</strong> If you are showing a chart, do not title it &lsquo;Q3 Sales Data.&rsquo; Title it &lsquo;Q3 Sales Exceeded Target by 14%.&rsquo; The headline should be the takeaway, not the description.&rdquo;
+</div>
+
+<h3>Before and After: Live Walkthrough (8 minutes)</h3>
+<div class="tip-box">
+<span class="tip-label">Facilitator Instruction</span>
+<p>Display the three &ldquo;before&rdquo; slides from Appendix C on screen. Walk through each one, identifying the specific sins. Then show the &ldquo;after&rdquo; version and explain what changed and why. This live walkthrough is critical &mdash; it makes the principles tangible and memorable.</p>
+<p>The three before/after pairs are provided in Appendix C with full descriptions. If you have access to real (anonymised) internal slides that commit these sins, use those instead &mdash; real examples always land harder than constructed ones.</p>
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: Slide Redesign Challenge (18 minutes)</span>
+<p><strong>Format:</strong> Individual or pairs, using the Slide Redesign Worksheet (Appendix C) or laptops if available<br>
+<strong>Materials:</strong> Appendix C worksheet containing two &ldquo;bad&rdquo; slides to redesign, pens</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;On your worksheet you will find two &lsquo;before&rsquo; slides. Both commit multiple slide sins. Your task is to redesign each one, applying the five principles.
+
+The rules:
+<ul>
+    <li>Each redesigned slide must pass the Billboard Test</li>
+    <li>Each slide must communicate one idea only</li>
+    <li>The headline must state the insight, not describe the content</li>
+    <li>Maximum 25 words per slide (including the headline)</li>
+</ul>
+
+You have 10 minutes. Then we review 3&ndash;4 redesigns as a group.&rdquo;
+
+<p><strong>Debrief (8 minutes):</strong> Display 3&ndash;4 redesigns. For each: &ldquo;Does it pass the Billboard Test? Is the headline an insight? How many words?&rdquo; Celebrate strong examples. Coach constructively.</p>
+</div>
+
+<div class="transition-box">
+<span class="transition-label">Transition to Module 5</span>
+&ldquo;Excellent. You now have principles that will immediately improve every presentation you create. The skills we have covered &mdash; audience empathy, storytelling, simplification, presence, camera skills, and visual design &mdash; all focus on <em>you</em> delivering to an audience. But what about the moments where it is not a one-way flow? What about when you are running a meeting, facilitating a workshop, or handling a room that is pushing back? That is where we go now &mdash; and we are not taking a break because I want the energy to carry straight through.&rdquo;
+</div>
+
+<h1>MODULE 5: FACILITATION, ACTIVE LISTENING &amp; MANAGING Q&amp;A</h1>
+<p><span class="time-badge">15:10 &ndash; 16:10</span> <strong>Duration: 60 minutes</strong></p>
+
+<div class="objective-box">
+<span class="objective-label">Module Learning Objectives</span>
+By the end of this module, participants will be able to:
+<ol>
+    <li>Open a facilitated session using the Hook &rarr; Purpose &rarr; Contract structure</li>
+    <li>Demonstrate at least three questioning techniques (open, directed, probing, closed) matched to appropriate moments</li>
+    <li>Read and respond to audience body language and energy levels in real time</li>
+    <li>Apply three time-management techniques during facilitation without losing depth or engagement</li>
+    <li>Handle challenging questions, persistent objections, and dominant participants using a composure-based approach</li>
+    <li>Close a session using the Summarise &rarr; Assign &rarr; Inspire structure</li>
+</ol>
+</div>
+
+<h2>Module Opening: From Presenting to Facilitating</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Let me make a distinction that is critical for this next module. There is a fundamental difference between <strong>presenting</strong> and <strong>facilitating</strong>, and many people conflate the two.
+
+<strong>Presenting</strong> is about delivering a message. The flow is primarily one-directional: from you to the audience.
+
+<strong>Facilitating</strong> is about managing a process. The flow is multi-directional: between you and the group, and between group members. Your job is not to have all the answers &mdash; it is to create the conditions for the group to arrive at answers, to contribute, to engage, and to commit to action.
+
+Both require everything we have covered today: audience empathy, clear structure, presence, and strong delivery. But facilitation adds a whole additional layer: you have to <strong>read the room, manage dynamics, draw out contribution, handle challenge, manage time, and maintain energy</strong> &mdash; all while driving toward an outcome.
+
+This module gives you practical tools for all of those. And because facilitation is a doing skill, not a knowing skill, you are going to spend a significant portion of this module practising.&rdquo;
+</div>
+
+<h2>Opening a Session with Impact</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;The first 90 seconds of any facilitated session set the tone for everything that follows. If you open weakly &mdash; fumbling with tech, reading an agenda slide, saying &lsquo;so, um, let&rsquo;s get started&rsquo; &mdash; you have already lost momentum.
+
+Here is a structure for opening with impact:
+
+<strong>Step 1: Hook.</strong> Start with something that grabs attention. A bold statement, a provocative question, a surprising statistic, a brief story. Not &lsquo;today we are going to cover four topics.&rsquo; That is a contents page, not an opening.
+
+<strong>Step 2: Purpose.</strong> Tell them <em>why</em> this session matters. Not what it covers &mdash; why it matters. &lsquo;By the end of this hour, we will have agreed the three actions that will fix the customer escalation problem that has been costing us two hours a day.&rsquo;
+
+<strong>Step 3: Contract.</strong> Set expectations for how the session will work. &lsquo;I need your participation, not your silence. I am going to ask for input, challenge assumptions, and keep us moving. If something is not clear, say so. If you disagree, say so. That is how we get to the best answer.&rsquo;
+
+Hook. Purpose. Contract. Ninety seconds. And now you have a room that is engaged, aligned, and ready to work.&rdquo;
+</div>
+
+<h2>Active Listening &amp; Reading the Room</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now let&rsquo;s talk about the skill that separates adequate facilitators from exceptional ones: <strong>active listening</strong>.
+
+Active listening is not just hearing the words someone says. It is paying close attention to <em>how</em> they say it, what they are <em>not</em> saying, and how the rest of the room is reacting. It is using that information in real time to adapt your delivery.
+
+Here are the practical components:
+
+<strong>Eyes:</strong> Watch body language continuously. Crossed arms, leaning back, looking at phones &mdash; disengagement. Leaning forward, nodding, making eye contact &mdash; engagement. If you see a split, you know you need to change something.
+
+<strong>Ears:</strong> Listen for tone as well as content. Is someone agreeing verbally but their tone suggests hesitation? Is someone asking a question that is actually a disguised objection?
+
+<strong>Mouth:</strong> Use verbal acknowledgement: &lsquo;I hear you,&rsquo; &lsquo;That&rsquo;s a strong point,&rsquo; &lsquo;Let me make sure I&rsquo;ve understood &mdash; are you saying&hellip;?&rsquo; This shows the speaker they are heard and gives you time to formulate your response.
+
+<strong>Questioning Techniques:</strong>
+
+Use <strong>open questions</strong> to draw out contribution: &lsquo;What is your experience of this?&rsquo; &lsquo;How does this land with your team?&rsquo;
+
+Use <strong>directed questions</strong> to involve quieter participants: &lsquo;Priya, I would value your perspective &mdash; what are you seeing?&rsquo;
+
+Use <strong>probing questions</strong> to go deeper: &lsquo;Can you give me a specific example?&rsquo; &lsquo;What would need to be true for that to work?&rsquo;
+
+Use <strong>closed questions</strong> to confirm and close: &lsquo;So we are agreed on option B? Yes? Good &mdash; let us move on.&rsquo;
+
+Match the question type to the moment. Early in a discussion, open and probing questions build richness. Late in a discussion, directed and closed questions drive decisions.&rdquo;
+</div>
+
+<h2>Time Management in Facilitation</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Now let me address something that almost every facilitator struggles with: <strong>time management</strong>. You have a plan. You have an agenda. And then reality happens &mdash; a discussion runs long, a question takes you sideways, one topic eats into the next. The challenge is managing time without killing the energy or shutting down a valuable conversation.
+
+Here are three techniques that work:
+
+<strong>Technique 1: The Time Contract.</strong> At the start of each agenda item, tell the group how long it has. &lsquo;We have 15 minutes on this topic. I am going to keep us moving because we have three more items to cover.&rsquo; This gives you permission to intervene later without seeming rude. It also recruits the group as allies in time management &mdash; they will self-regulate.
+
+<strong>Technique 2: The Value Check.</strong> When a discussion is running over, do not just cut it off. Make a conscious, transparent decision: &lsquo;We are at time on this item, but the discussion is valuable. Let me make a call &mdash; we can give this another 5 minutes, which means we will shorten the next item. Is that worth it?&rsquo; This shows you are managing, not just reacting. And it gives the group ownership of the trade-off.
+
+<strong>Technique 3: The Parking Lot with Purpose.</strong> You have a Parking Lot on the flip chart. Use it actively &mdash; not as a graveyard where questions go to die, but as a genuine commitment to return. When you park something, say: &lsquo;This is important and I do not want to give it a rushed answer. Let me park it and we will come back to it at [specific time] &mdash; or I will follow up with you directly by [specific date].&rsquo; The key is specificity. Vague parking erodes trust. Specific parking builds it.
+
+The golden rule: <strong>never sacrifice the close for the middle</strong>. If you are running over, protect your final 5 minutes. A strong close with clear actions is more valuable than an extra 5 minutes of discussion that runs into &lsquo;sorry, we have run out of time, I will send a follow-up email.&rsquo; That email never lands the way a live close does.&rdquo;
+</div>
+
+<h2>Managing Q&amp;A and Conflict</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;And now the part many people dread: <strong>Q&amp;A and conflict</strong>.
+
+<strong>Rule 1: Welcome it.</strong> Questions and challenge are signs of engagement. The worst outcome is a room where nobody says anything &mdash; because that means they have checked out or are saving objections for the corridor conversation afterwards.
+
+<strong>Rule 2: Listen fully before responding.</strong> Do not interrupt. Do not start formulating your answer while they are still speaking. Hear the complete question. Pause before responding. That pause signals composure.
+
+<strong>Rule 3: Acknowledge before answering.</strong> Validate the question first. &lsquo;That is a really important point.&rsquo; &lsquo;I am glad you raised that.&rsquo; This defuses defensiveness and shows respect.
+
+<strong>Rule 4: Bridge if needed.</strong> If a question takes you off-topic: &lsquo;That is a great question, and it deserves more time than we have right now. Let me capture it on the Parking Lot and come back to it. For now, let us focus on&hellip;&rsquo;
+
+<strong>Rule 5: Handle &lsquo;I don&rsquo;t know&rsquo; with confidence.</strong> &lsquo;Honestly, I do not have that data to hand. Let me find out and come back to you by end of day tomorrow.&rsquo; This builds more credibility than bluffing.
+
+<strong>Rule 6: Manage the persistent challenger.</strong> Acknowledge their point, ask if others have a view (&lsquo;Who else has thoughts on this?&rsquo;), and if needed, offer to continue offline. Never get into a public argument &mdash; you cannot win, even if you are right.&rdquo;
+</div>
+
+<h2>Closing a Session with Impact</h2>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;One more tool: <strong>how to close a session</strong>.
+
+Most sessions end with a whimper: &lsquo;So, um, that is it really. Any questions? No? Okay, thanks everyone.&rsquo; That is a waste of the most psychologically impactful moment.
+
+People remember the beginning and the end more than the middle. This is called the <strong>primacy-recency effect</strong>. So your close needs to be as intentional as your open.
+
+Three-step close:
+
+<strong>Step 1: Summarise.</strong> Recap the key decisions or takeaways. &lsquo;Today we agreed three things&hellip;&rsquo;
+
+<strong>Step 2: Assign.</strong> Make actions specific and owned. &lsquo;James, you are taking the lead on X by Friday. Sarah, you are following up on Y by next Tuesday.&rsquo;
+
+<strong>Step 3: Inspire.</strong> Leave them with something that sticks. A forward-looking statement, a call to action. &lsquo;This is not about what we discussed today. It is about what we do tomorrow. Let us make it count.&rsquo;
+
+Summarise. Assign. Inspire.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Activity: The &ldquo;Difficult Room&rdquo; Simulation &mdash; Two Rounds (20 minutes)</span>
+<p><strong>Format:</strong> Groups of 5&ndash;6. One facilitator, rest are &ldquo;audience members&rdquo; with assigned roles.<br>
+<strong>Materials:</strong> Role cards (pre-prepared &mdash; 5 roles per set)</p>
+
+<p><strong>Instructions (read to participants):</strong></p>
+&ldquo;Get into groups of five or six. One person volunteers to be the facilitator. Everyone else receives a role card &mdash; do not show your card to the facilitator.
+
+The facilitator&rsquo;s task: open a 3-minute meeting segment on a fictional topic (e.g., &lsquo;We need to agree our priorities for next quarter&rsquo;), facilitate discussion, manage whatever comes up, manage your time, and close with a summary and clear next step.
+
+The audience roles:
+<ul>
+    <li><strong>The Dominator:</strong> You have a strong opinion on everything and want to talk at length. You interrupt others.</li>
+    <li><strong>The Silent One:</strong> You have a valuable insight but will only share it if directly and warmly asked.</li>
+    <li><strong>The Challenger:</strong> You disagree with the direction and will raise objections. Persistent but not hostile.</li>
+    <li><strong>The Distracted One:</strong> You keep checking your phone. You give short, noncommittal answers if asked.</li>
+    <li><strong>The Ally:</strong> You are supportive and engaged. You will help the facilitator if given an opening.</li>
+</ul>
+
+The facilitator does not know who has which role. After 3 minutes, stop. The facilitator shares what they observed. The audience reveals their roles. Discuss what worked and what could improve.
+
+<strong>Then rotate the facilitator and run a second round</strong> &mdash; new facilitator, same roles reshuffled. This ensures at least two people per group get hands-on practice.&rdquo;
+
+<p><strong>Round 1:</strong> 3 min facilitation + 3 min debrief = 6 minutes<br>
+<strong>Round 2:</strong> 3 min facilitation + 3 min debrief = 6 minutes<br>
+<strong>Whole-group debrief:</strong> 8 minutes</p>
+
+<p><strong>Whole-Group Debrief:</strong> Ask facilitators: &ldquo;What was hardest? What did you try that worked?&rdquo; Ask audience: &ldquo;When did the facilitator make you feel included? When did they lose you?&rdquo; Reinforce: directed questions for the silent one, acknowledgement-then-redirect for the dominator, validation for the challenger, re-engagement for the distracted one, time contracts and value checks for pacing.</p>
+</div>
+
+<div class="transition-box">
+<span class="transition-label">Transition to Module 6</span>
+&ldquo;Brilliant work. You have now practised the hardest thing we cover all day &mdash; managing a live room with real dynamics. You handled dominators, drew out quiet voices, managed conflict, and kept to time. Those are transferable skills that will serve you in every meeting, every workshop, and every call you run from here.
+
+Now it is time for the final act. The capstone. This is the moment where everything comes together &mdash; and every single one of you is going to present.&rdquo;
+</div>
+
+
+<h1>MODULE 6: CAPSTONE PRESENTATIONS &amp; CLOSE</h1>
+<p><span class="time-badge">16:10 &ndash; 17:10</span> <strong>Duration: 60 minutes</strong></p>
+
+<div class="objective-box">
+<span class="objective-label">Module Learning Objectives</span>
+By the end of this module, participants will be able to:
+<ol>
+    <li>Deliver a structured, engaging 2-minute presentation incorporating frameworks and techniques from the full day</li>
+    <li>Give specific, balanced, actionable feedback to a peer using the rubric criteria</li>
+    <li>Articulate a personal action plan with at least one start, one stop, and one specific upcoming opportunity to apply</li>
+    <li>Identify an accountability buddy and commit to a 30-day follow-up structure</li>
+</ol>
+</div>
+
+<h2>6.1 Capstone Presentations (16:10&ndash;16:45 | 35 minutes)</h2>
+
+<h3>Setup</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Right. This is the moment where everything comes together. We started the day with the 60-Second Spotlight &mdash; no preparation, no framework, just you and a random topic. You are about to do something similar, but this time you have an entire day&rsquo;s worth of tools in your toolkit.
+
+And let me be clear: <strong>everyone presents in the capstone.</strong> Not just the confident ones. Not just the volunteers. Everyone. Because the only way to build the muscle is to use it. And this is the safest room you will ever do it in.
+
+Here is how it works:
+
+<strong>Phase 1 &mdash; Breakout Groups (15 minutes):</strong> You will split into groups of 4&ndash;5. Each person in the group will deliver a <strong>2-minute structured presentation</strong> to their group. After each presentation, the group gives feedback using the feedback form in your handout pack: one strength, one development point.
+
+<strong>Phase 2 &mdash; Showcase to the Full Room (15 minutes):</strong> Each breakout group will nominate one presenter to deliver to the full room. The nomination is not about who was &lsquo;best&rsquo; &mdash; it is about who showed the most growth, the most courage, or the most effective use of the day&rsquo;s techniques. The facilitator and the full room give feedback on each showcase presentation.
+
+The topic for everyone: <strong>&lsquo;A recommendation I would make to improve how we work at Tesla UK.&rsquo;</strong>
+
+The rules:
+<ul>
+    <li>Use the SCR or PREP framework to structure your message</li>
+    <li>Open with a Power Opener &mdash; no &lsquo;so, um, today I want to talk about&hellip;&rsquo;</li>
+    <li>Apply the Pyramid Principle: headline first, then supporting points</li>
+    <li>Deliver with presence: vocal variety, pauses, eye contact, physicality</li>
+    <li>Close with a clear ask or next step</li>
+    <li>No slides. Just you and your message</li>
+</ul>
+
+You have 3 minutes to prepare, then we split into breakout groups.&rdquo;
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Phase 1: Breakout Group Presentations (15 minutes)</span>
+<p><strong>Format:</strong> Groups of 4&ndash;5, each person presents for 2 minutes + 1 minute peer feedback<br>
+<strong>Materials:</strong> Timer, Feedback Forms (Appendix D)</p>
+
+<p><strong>Instructions:</strong> Each group self-manages. Participants present in turn. After each presentation, peers write one strength and one development point on the feedback form and share verbally. The group then nominates one person for the full-room showcase.</p>
+
+<p><strong>Facilitator role:</strong> Circulate between groups, observe, and take notes on specific growth moments to reference in the full-room debrief. Do not intervene unless a group is stuck.</p>
+</div>
+
+<div class="activity-box">
+<span class="activity-label">Phase 2: Full-Room Showcase (15 minutes)</span>
+<p><strong>Format:</strong> 3&ndash;4 nominated presenters deliver to the full group<br>
+<strong>Time:</strong> 2 minutes per presenter + 2 minutes feedback = ~4 minutes per person</p>
+
+<p><strong>Feedback Process:</strong> After each presenter:</p>
+<ol>
+    <li>Audience applause</li>
+    <li>Facilitator gives two pieces of specific feedback: one strength and one area to continue developing</li>
+    <li>Ask one audience member: &ldquo;What was the one thing that landed most for you?&rdquo;</li>
+    <li><strong>Compare to baseline:</strong> Where possible, name the specific improvement from the 60-Second Spotlight that morning. Example: &ldquo;This morning, your opening was hesitant &mdash; you apologised before you started. Just now, you walked up, planted your feet, and delivered your headline before I had even pressed the timer. That is growth, and it happened in one day.&rdquo;</li>
+</ol>
+</div>
+
+<div class="tip-box">
+<span class="tip-label">Facilitator Tip &mdash; Nominations</span>
+<p>Guide the nomination process. Tell groups: &ldquo;Nominate the person who most surprised you, who grew the most, or who best embodied the techniques from today. This is not a competition &mdash; it is a celebration.&rdquo; If a participant who was hesitant in the morning is nominated, this is a powerful moment &mdash; celebrate it visibly.</p>
+<p>If using video recording (with consent), play back a morning icebreaker clip alongside the capstone to visually demonstrate growth.</p>
+</div>
+
+<div class="tip-box">
+<span class="tip-label">Capstone Debrief (5 minutes)</span>
+<p>After all showcase presenters have finished, facilitate a brief whole-room reflection:</p>
+<ul>
+    <li>&ldquo;What was different about the presentations you just saw compared to the 60-Second Spotlight this morning?&rdquo;</li>
+    <li>&ldquo;Which technique from today had the biggest impact on the quality of what we just witnessed?&rdquo;</li>
+    <li>&ldquo;What did it feel like to deliver with a framework compared to winging it?&rdquo;</li>
+</ul>
+<p>Listen for reflections on structure, confidence, clarity, and presence. Reinforce that the gap between morning and afternoon is one day &mdash; imagine what consistent practice over weeks and months will do.</p>
+</div>
+
+<h2>6.2 Reflection, Transfer &amp; Close (16:45&ndash;17:10 | 25 minutes)</h2>
+
+<h3>Personal Action Plan (5 minutes)</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Before I close, I want you to take 3 minutes for personal reflection. On the action plan page in your handout &mdash; or on a sticky note &mdash; write down three things:
+
+<strong>1. One thing I will START doing</strong> as a result of today.
+
+<strong>2. One thing I will STOP doing</strong> as a result of today.
+
+<strong>3. The FIRST opportunity I will use this</strong> &mdash; a specific meeting, presentation, call, or interaction in the next two weeks where you will deliberately apply what you have learned. Be specific: date, audience, what you will do differently.
+
+Write those down now. These are for you. I will not collect them. But I will encourage you to put them somewhere visible &mdash; your monitor, your notebook, your phone &mdash; because the learning only matters if it becomes action.&rdquo;
+</div>
+
+<h3>Accountability Buddy Pairing (5 minutes)</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Here is something that makes a genuine difference to whether today&rsquo;s learning sticks or fades. Research consistently shows that 70&ndash;90% of classroom learning is lost within 30 days without reinforcement. I am not going to let that happen.
+
+Turn to the person next to you. That person is now your <strong>accountability buddy</strong>. In the next 2 minutes, do three things:
+
+<strong>1.</strong> Exchange contact details (phone number, Teams handle, or email).
+
+<strong>2.</strong> Share your &lsquo;first opportunity&rsquo; from your action plan &mdash; the specific moment in the next two weeks where you will apply what you have learned.
+
+<strong>3.</strong> Agree a date and time &mdash; right now, put it in your calendar &mdash; for a 15-minute check-in call in 2 weeks&rsquo; time. In that call, you will share: what did you try? What worked? What did you learn?
+
+Then you will have a second check-in at the 30-day mark.
+
+This is not optional. If you want today to change how you show up, you need someone who will hold you to it. Do it now.&rdquo;
+</div>
+
+<h3>30-Day Transfer Plan Overview (5 minutes)</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Let me also tell you what happens from our side to support your continued development.
+
+<strong>Within 48 hours:</strong> You will receive an email from me containing:
+<ul>
+    <li>A digital copy of the Key Frameworks Reference Card &mdash; the one-page summary of every framework from today</li>
+    <li>A short &lsquo;refresher&rsquo; video (5 minutes) recapping the core techniques</li>
+    <li>Three micro-challenges &mdash; small, specific things to try in your first week back</li>
+</ul>
+
+<strong>At Day 14:</strong> You will receive a brief check-in survey: &lsquo;What have you tried? What worked? What do you need help with?&rsquo; This is also when your buddy call happens.
+
+<strong>At Day 30:</strong> You will receive an invitation for a 30-minute virtual group debrief &mdash; a chance to reconnect with today&rsquo;s cohort, share wins, troubleshoot challenges, and reinforce the learning.
+
+<strong>Your line manager</strong> will also receive a briefing pack (see Appendix G) that tells them what you covered today and suggests three simple ways they can support your development &mdash; including asking you to present in your next team meeting using the frameworks from today.
+
+This is not a one-day course. This is the start of a development arc. And the more you use these tools, the stronger they get.&rdquo;
+</div>
+
+<h3>Evaluation (5 minutes)</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Before the final close, please take 3 minutes to fill out the evaluation form in your pack. Your feedback is not a formality &mdash; it genuinely shapes V4 of this programme. Be honest. Tell me what landed, what did not, and what you would add. I read every one.&rdquo;
+</div>
+
+<h3>Final Close (5 minutes)</h3>
+<div class="script-box">
+<span class="script-label">Facilitator Script</span>
+&ldquo;Let me close by practising what I have preached today.
+
+[PAUSE &mdash; deliberate, 3 seconds, eye contact around the room.]
+
+This morning, you walked into this room as people who communicate every day but had never been given a framework for doing it well. This afternoon, you are walking out with a toolkit:
+
+You know how to <strong>start with the audience</strong>, not with yourself.
+
+You know how to <strong>build a story</strong> that drives action, not just transfers information.
+
+You know how to <strong>simplify the complex</strong> &mdash; to lead with the headline and trust that the detail will follow.
+
+You know how to <strong>show up with presence</strong> &mdash; in person and on camera &mdash; with your voice, your posture, your pauses, and your confidence.
+
+You know how to <strong>design visuals</strong> that support your message instead of sabotaging it.
+
+And you know how to <strong>facilitate a room</strong> &mdash; to listen, to manage time, to handle challenge, and to close with clarity.
+
+But here is the thing. These tools only work if you use them. Not next month. Not when you &lsquo;have a big presentation coming up.&rsquo; Tomorrow. In your next Teams call. In your next meeting. In the next conversation where the stakes feel high.
+
+Every single interaction is a presentation. And you are now equipped to make each one count.
+
+You have an accountability buddy. You have an action plan. You have a check-in at 14 days and a group debrief at 30. There is no reason for this to fade.
+
+Thank you for your energy, your courage, and your willingness to be uncomfortable today. I have seen genuine growth in this room &mdash; and that growth belongs to you, not to me. You did the work.
+
+Now go out there and show them what you have got.&rdquo;
+</div>
+
+<div class="tip-box">
+<span class="tip-label">Facilitator Tip &mdash; Final Close</span>
+<p>Deliver this close exactly as scripted &mdash; with full presence, deliberate pauses, and eye contact. This is your final modelling opportunity. End on a high &mdash; energy, applause, handshakes, genuine warmth. The feeling participants leave with is the feeling they associate with the entire day.</p>
+</div>
+
+
+<h1>POST-SESSION TRANSFER &amp; REINFORCEMENT PLAN</h1>
+
+<p>Learning transfer is the most critical &mdash; and most commonly neglected &mdash; element of any ILT programme. The following plan ensures that the skills practised on the day become embedded behaviours over 30 days.</p>
+
+<h2>Pre-Session (5 Working Days Before)</h2>
+<table>
+<tr><th style="width:20%;">Action</th><th style="width:50%;">Detail</th><th style="width:15%;">Owner</th><th style="width:15%;">Channel</th></tr>
+<tr><td>Participant Welcome Email</td><td>Welcome message confirming date, time, location, and dress code (comfortable &mdash; you will be standing and moving). Set expectations: &ldquo;This is a hands-on, practice-based day. You will be presenting, facilitating, and giving feedback. Come prepared to step outside your comfort zone.&rdquo; Include a short pre-work question: &ldquo;Think of one upcoming moment (meeting, call, presentation, interview) where you need to communicate with impact. Bring it with you.&rdquo;</td><td>Facilitator / L&amp;D</td><td>Email</td></tr>
+<tr><td>Manager Notification</td><td>Brief email to participants&rsquo; line managers: what the session covers, what to expect from their team member afterwards, and a request to provide at least one opportunity to present in the first 2 weeks post-session.</td><td>L&amp;D</td><td>Email</td></tr>
+</table>
+
+<h2>Post-Session: Day 1&ndash;2</h2>
+<table>
+<tr><th style="width:20%;">Action</th><th style="width:50%;">Detail</th><th style="width:15%;">Owner</th><th style="width:15%;">Channel</th></tr>
+<tr><td>Follow-Up Email</td><td>Thank you + digital copy of the Key Frameworks Reference Card (PDF) + 5-minute refresher video recap + three micro-challenges for Week 1:<br>
+1. Use the Pyramid Principle in your next email: lead with the headline<br>
+2. Apply the 4-question Audience Empathy framework before your next meeting<br>
+3. Practise one deliberate strategic pause in your next Teams call</td><td>Facilitator</td><td>Email</td></tr>
+<tr><td>Manager Briefing Pack</td><td>Send the full Manager Briefing Pack (Appendix G) to line managers. Includes: what participants covered, what &ldquo;good&rdquo; looks like, and three things managers can do to support transfer.</td><td>L&amp;D</td><td>Email</td></tr>
+</table>
+
+<h2>Post-Session: Day 14</h2>
+<table>
+<tr><th style="width:20%;">Action</th><th style="width:50%;">Detail</th><th style="width:15%;">Owner</th><th style="width:15%;">Channel</th></tr>
+<tr><td>Check-In Survey</td><td>3-question pulse survey: (1) Which technique have you used most? (2) What has been hardest to apply? (3) What support would help? Responses inform the Day 30 debrief agenda.</td><td>Facilitator / L&amp;D</td><td>Microsoft Forms</td></tr>
+<tr><td>Buddy Check-In Call</td><td>15-minute call between accountability buddies (self-organised, scheduled on the day). Agenda: what did you try? What worked? What did you learn?</td><td>Participants</td><td>Teams</td></tr>
+</table>
+
+<h2>Post-Session: Day 30</h2>
+<table>
+<tr><th style="width:20%;">Action</th><th style="width:50%;">Detail</th><th style="width:15%;">Owner</th><th style="width:15%;">Channel</th></tr>
+<tr><td>Virtual Group Debrief</td><td>30-minute facilitated Teams call with the full cohort. Agenda: share wins, troubleshoot challenges, revisit key frameworks, and set personal development goals for the next 90 days. This also serves as a community-building moment &mdash; cohorts who reconnect at Day 30 show significantly higher sustained behaviour change.</td><td>Facilitator</td><td>Teams</td></tr>
+<tr><td>Buddy Check-In #2</td><td>Second 15-minute buddy call. Agenda: sustained progress, ongoing challenges, next steps.</td><td>Participants</td><td>Teams</td></tr>
+<tr><td>Optional: Second Micro-Challenge Set</td><td>Three more advanced challenges for Month 2:<br>
+1. Facilitate a 15-minute segment of a team meeting using Hook &rarr; Purpose &rarr; Contract<br>
+2. Redesign one existing slide deck using the Billboard Test and design principles<br>
+3. Deliver a business case to a real decision-maker using PREP or the five-box model</td><td>Facilitator</td><td>Email</td></tr>
+</table>
+
+<h1>APPENDIX A: MATERIALS &amp; EQUIPMENT CHECKLIST</h1>
+
+<h2>Pre-Session Preparation Checklist</h2>
+<table>
+<tr><th style="width:5%;">&nbsp;</th><th style="width:50%;">Item</th><th style="width:20%;">Responsible</th><th style="width:25%;">Deadline</th></tr>
+<tr><td>&#9744;</td><td>Room booked and confirmed (U-shape or cabaret layout, accessible)</td><td>Facilitator</td><td>1 week prior</td></tr>
+<tr><td>&#9744;</td><td>AV equipment tested (projector, screen, sound, adaptor, webcam)</td><td>Facilitator</td><td>Day before</td></tr>
+<tr><td>&#9744;</td><td>Slide deck loaded and tested on facilitator laptop</td><td>Facilitator</td><td>Day before</td></tr>
+<tr><td>&#9744;</td><td>Video exemplar clips sourced, downloaded/bookmarked, and tested (see Appendix E)</td><td>Facilitator</td><td>3 days prior</td></tr>
+<tr><td>&#9744;</td><td>Second device set up with Teams for Virtual Presence drill</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Participant handout packs printed (Appendix B + C + D)</td><td>L&amp;D Admin</td><td>2 days prior</td></tr>
+<tr><td>&#9744;</td><td>Flip chart easels and pads in room (3&ndash;4)</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Marker pens (assorted colours, thick tip, 4 packs)</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Sticky notes (3 colours, 6 packs)</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Topic cards for 60-Second Spotlight (16+ cards)</td><td>Facilitator</td><td>Day before</td></tr>
+<tr><td>&#9744;</td><td>Role cards for Difficult Room simulation (5 per set, 3&ndash;4 sets)</td><td>Facilitator</td><td>Day before</td></tr>
+<tr><td>&#9744;</td><td>Scenario cards for Story Spine exercise (4 cards)</td><td>Facilitator</td><td>Day before</td></tr>
+<tr><td>&#9744;</td><td>Name tent cards (pre-printed or blank)</td><td>L&amp;D Admin</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Timer / countdown device</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Wireless clicker</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Evaluation / feedback forms printed</td><td>L&amp;D Admin</td><td>2 days prior</td></tr>
+<tr><td>&#9744;</td><td>Parking Lot flip chart prepared with heading</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Pre-session email sent to participants (5 working days prior)</td><td>Facilitator / L&amp;D</td><td>5 days prior</td></tr>
+<tr><td>&#9744;</td><td>Manager notification email sent (5 working days prior)</td><td>L&amp;D</td><td>5 days prior</td></tr>
+<tr><td>&#9744;</td><td>Refreshments / water arranged</td><td>L&amp;D Admin</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Video recording device (optional, with consent forms)</td><td>Facilitator</td><td>Morning of</td></tr>
+<tr><td>&#9744;</td><td>Accessibility needs reviewed and adaptations prepared</td><td>Facilitator</td><td>3 days prior</td></tr>
+</table>
+
+
+<h1>APPENDIX B: PARTICIPANT HANDOUTS &amp; TEMPLATES</h1>
+
+<h2>Handout 1: Audience Empathy Worksheet</h2>
+<p><em>One per participant.</em></p>
+<table>
+<tr><th colspan="2" style="background-color:#333333;">AUDIENCE EMPATHY WORKSHEET</th></tr>
+<tr><td style="width:40%; background-color:#f5f5f5;"><strong>My presentation / meeting / communication:</strong></td><td>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>Q1: Who is in the room?</strong><br><em>(Names, roles, priorities, knowledge level)</em></td><td>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>Q2: What do they already know?</strong><br><em>(Existing knowledge, context, previous exposure)</em></td><td>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>Q3: What do they need to decide or do after this?</strong><br><em>(The action or decision you are driving toward)</em></td><td>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>Q4: What is the one thing they must remember?</strong><br><em>(If they forget 90%, what is the 10% that sticks?)</em></td><td>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+</table>
+
+<h2>Handout 2: One-Slide Challenge Worksheet</h2>
+<p><em>One per participant.</em></p>
+<table>
+<tr><th colspan="2" style="background-color:#333333;">ONE-SLIDE CHALLENGE</th></tr>
+<tr><td colspan="2" style="background-color:#f5f5f5;"><strong>Your project / initiative / piece of work:</strong> &nbsp;<br>&nbsp;</td></tr>
+<tr><td colspan="2" style="text-align:center; padding:16pt; border:2px solid #c00000;">
+<p style="font-size:16pt; font-weight:bold; color:#c00000;">HEADLINE (max 10 words):</p>
+<p style="border-bottom:1px solid #ccc; padding-bottom:8pt;">&nbsp;<br>&nbsp;</p>
+<p style="font-weight:bold; margin-top:12pt;">Supporting Point 1 (max 15 words):</p>
+<p style="border-bottom:1px solid #ccc; padding-bottom:8pt;">&nbsp;</p>
+<p style="font-weight:bold;">Supporting Point 2 (max 15 words):</p>
+<p style="border-bottom:1px solid #ccc; padding-bottom:8pt;">&nbsp;</p>
+<p style="font-weight:bold;">Supporting Point 3 (max 15 words):</p>
+<p style="border-bottom:1px solid #ccc; padding-bottom:8pt;">&nbsp;</p>
+<p style="font-weight:bold; margin-top:12pt; color:#c00000;">THE ASK / NEXT STEP (one sentence):</p>
+<p style="border-bottom:1px solid #ccc; padding-bottom:8pt;">&nbsp;<br>&nbsp;</p>
+</td></tr>
+<tr><td colspan="2" style="background-color:#f5f5f5;"><strong>Partner feedback:</strong> Could they understand it without extra explanation? What would they cut or clarify?<br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+</table>
+
+<h2>Handout 3: Business Case Template</h2>
+<p><em>One per participant.</em></p>
+<table>
+<tr><th colspan="2" style="background-color:#333333;">BUSINESS CASE TEMPLATE</th></tr>
+<tr><td style="width:30%; background-color:#f5f5f5;"><strong>PREP Quick Version</strong></td><td>
+<strong>P &mdash; Point:</strong> State your recommendation.<br>&nbsp;<br>
+<strong>R &mdash; Reason:</strong> Why?<br>&nbsp;<br>
+<strong>E &mdash; Example:</strong> Make it real.<br>&nbsp;<br>
+<strong>P &mdash; Point (restated):</strong> Close the loop.<br>&nbsp;
+</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>Five-Box Full Version</strong></td><td>
+<strong>1. Context &amp; Problem Statement:</strong><br>&nbsp;<br>&nbsp;<br>
+<strong>2. Proposed Solution:</strong><br>&nbsp;<br>&nbsp;<br>
+<strong>3. Cost &amp; Resources Required:</strong><br>&nbsp;<br>&nbsp;<br>
+<strong>4. Expected Outcome &amp; Benefit:</strong><br>&nbsp;<br>&nbsp;<br>
+<strong>5. Risk &amp; Mitigation:</strong><br>&nbsp;<br>&nbsp;
+</td></tr>
+</table>
+
+<h2>Handout 4: Key Frameworks Reference Card</h2>
+<p><em>Single-page reference card for participants to keep.</em></p>
+<table>
+<tr><th style="background-color:#333333;" colspan="2">PRESENTATION SKILLS V3 &mdash; KEY FRAMEWORKS REFERENCE CARD</th></tr>
+<tr><td style="width:30%; background-color:#ffe0e0;"><strong>Audience Empathy<br>4 Questions</strong></td><td>1. Who is in the room? 2. What do they already know? 3. What do they need to decide/do? 4. What is the one thing they must remember?</td></tr>
+<tr><td style="background-color:#fff3e0;"><strong>SCR+BN Framework</strong></td><td><strong>S</strong>ituation &rarr; <strong>C</strong>omplication &rarr; <strong>R</strong>esolution &rarr; <strong>B</strong>enefit &rarr; <strong>N</strong>ext Step</td></tr>
+<tr><td style="background-color:#e8f5e9;"><strong>Pyramid Principle</strong></td><td>Start with the answer. Then supporting arguments. Then data (only if asked). Top-down, not bottom-up.</td></tr>
+<tr><td style="background-color:#e3f2fd;"><strong>PREP Framework</strong></td><td><strong>P</strong>oint &rarr; <strong>R</strong>eason &rarr; <strong>E</strong>xample &rarr; <strong>P</strong>oint (restated)</td></tr>
+<tr><td style="background-color:#f3e5f5;"><strong>Executive Presence<br>4 Pillars</strong></td><td>1. Vocal Variety (pace, volume, pitch) 2. Strategic Pause 3. Physicality &amp; Body Language 4. Managing Nerves (box breathing, pre-performance reset, reframe)</td></tr>
+<tr><td style="background-color:#e3f2fd;"><strong>Virtual Presence<br>5 Rules</strong></td><td>1. Camera = eye contact 2. Energy up 20% 3. Frame yourself properly 4. Use chat/reactions strategically 5. Manage screen-share transitions</td></tr>
+<tr><td style="background-color:#fce4ec;"><strong>Facilitation Open</strong></td><td>Hook &rarr; Purpose &rarr; Contract</td></tr>
+<tr><td style="background-color:#e0f2f1;"><strong>Facilitation Close</strong></td><td>Summarise &rarr; Assign &rarr; Inspire</td></tr>
+<tr><td style="background-color:#fff3e0;"><strong>Time Management</strong></td><td>1. Time Contract (tell them how long) 2. Value Check (transparent trade-offs) 3. Parking Lot with Purpose (specific follow-up)</td></tr>
+<tr><td style="background-color:#fff8e1;"><strong>Billboard Test</strong></td><td>If someone driving past at 70mph can&rsquo;t get the message in 3 seconds, the slide is too complex.</td></tr>
+<tr><td style="background-color:#efebe9;"><strong>Q&amp;A Rules</strong></td><td>1. Welcome it 2. Listen fully 3. Acknowledge before answering 4. Bridge if needed 5. &ldquo;I don&rsquo;t know&rdquo; with confidence 6. Redirect the persistent challenger</td></tr>
+</table>
+
+<h2>Handout 5: Personal Action Plan</h2>
+<p><em>One per participant.</em></p>
+<table>
+<tr><th colspan="2" style="background-color:#333333;">MY ACTION PLAN</th></tr>
+<tr><td style="width:35%; background-color:#f5f5f5;"><strong>One thing I will START doing:</strong></td><td>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>One thing I will STOP doing:</strong></td><td>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>My FIRST opportunity to apply this:</strong><br><em>(specific date, audience, what I will do differently)</em></td><td>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>My accountability buddy:</strong></td><td>Name: ___________________ Contact: ___________________</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>14-day check-in date:</strong></td><td>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>30-day check-in date:</strong></td><td>&nbsp;</td></tr>
+</table>
+
+<h1>APPENDIX C: SLIDE REDESIGN &mdash; &ldquo;BEFORE&rdquo; SLIDES &amp; ANSWER KEY</h1>
+
+<p>The following three &ldquo;before&rdquo; slides are used in the Module 4 live walkthrough and the Slide Redesign Challenge activity. Each deliberately commits multiple Slide Sins. The &ldquo;after&rdquo; version and facilitator talking points are provided below each one.</p>
+
+<h2>Before Slide 1: &ldquo;The Wall of Text&rdquo;</h2>
+<table>
+<tr><td style="background-color:#1a3c6e; color:white; padding:20pt; font-size:9pt; line-height:1.3;">
+<p style="font-size:14pt; font-weight:bold; color:white;">Team Performance Update &mdash; Q3 2025</p>
+<p>In Q3 2025, the team delivered a total of 847 service interactions across all three regions (South, Midlands, and North), which represents a 12% increase compared to Q2 2025 (756 interactions). Customer satisfaction scores averaged 4.2 out of 5, which is above the company target of 4.0 but below the team&rsquo;s internal stretch target of 4.5. The main areas of concern were response time (average 3.2 hours vs target of 2 hours) and first-contact resolution rate (68% vs target of 80%). The team has identified three root causes: (1) understaffing during peak periods due to annual leave clustering, (2) incomplete handover documentation between shifts, and (3) a backlog in the CRM system that causes duplicate entries. A corrective action plan has been drafted and is pending approval from the Head of Operations. Key actions include: implementing a leave-booking protocol to prevent clustering, standardising handover templates, and escalating the CRM issue to IT for resolution by end of Q4. Budget impact is estimated at &pound;8,500 for the CRM fix and nil for the process changes. The team requests approval to proceed with all three actions immediately.</p>
+</td></tr>
+</table>
+<p><strong>Sins committed:</strong> Wall of Text (Sin 1), Data Overload (Sin 2). The headline describes the topic, not the insight. The slide contains approximately 190 words. No visual hierarchy. The audience will read ahead of the presenter and stop listening.</p>
+
+<h3>After Slide 1: Redesigned</h3>
+<table>
+<tr><td style="background-color:white; padding:20pt; border:2px solid #ccc;">
+<p style="font-size:18pt; font-weight:bold; color:#c00000;">Service Quality Is Slipping &mdash; Three Fixes Will Bring Us Back on Track</p>
+<p style="font-size:11pt; margin-top:16pt;">&bull; Response time 60% over target &mdash; leave clustering and shift handovers are the root cause</p>
+<p style="font-size:11pt;">&bull; Three actions drafted: leave protocol, handover templates, CRM fix (&pound;8.5k)</p>
+<p style="font-size:11pt;">&bull; <strong>Ask:</strong> Approval to proceed immediately</p>
+</td></tr>
+</table>
+<p><strong>What changed:</strong> Headline states the insight and the resolution. Three bullets cover problem, solution, and ask. Word count: 42. Detail moves to the appendix or verbal delivery. The audience instantly knows what the slide is about and what is being asked of them.</p>
+
+<h2>Before Slide 2: &ldquo;The Data Overload&rdquo;</h2>
+<table>
+<tr><td style="background-color:white; padding:20pt; border:2px solid #ccc; font-size:9pt;">
+<p style="font-size:14pt; font-weight:bold;">Monthly Sales Data by Region &mdash; January to September 2025</p>
+<p style="font-size:8pt;">[Describe to participants: imagine a dense table with 9 columns (Jan&ndash;Sep) and 6 rows (5 regions + total), every cell filled with numbers to two decimal places, tiny font, no colour coding, no highlights, row and column gridlines making it hard to scan, and a secondary chart crammed in below the table showing trend lines for all 5 regions overlapping in similar colours.]</p>
+<p style="font-size:8pt; margin-top:8pt;">Total: Jan 234.56 | Feb 245.78 | Mar 267.89 | Apr 289.01 | May 301.23 | Jun 278.45 | Jul 312.67 | Aug 298.34 | Sep 345.12 | YTD: 2,573.05</p>
+<p style="font-size:8pt;">North: Jan 67.23 | Feb 71.45 | Mar 78.90 | Apr 82.34 | May 89.01 | Jun 76.54 | Jul 92.34 | Aug 85.67 | Sep 101.23</p>
+<p style="font-size:8pt;">[...3 more regional rows of similar density...]</p>
+</td></tr>
+</table>
+<p><strong>Sins committed:</strong> Data Overload (Sin 2), Font Festival (Sin 4). The headline describes the data rather than the insight. Too much granularity for any audience except the analyst who created it. Overlapping trend lines make comparison impossible.</p>
+
+<h3>After Slide 2: Redesigned</h3>
+<table>
+<tr><td style="background-color:white; padding:20pt; border:2px solid #ccc;">
+<p style="font-size:18pt; font-weight:bold; color:#c00000;">North Region Is Driving Growth &mdash; Up 51% YTD While South Has Stalled</p>
+<p style="font-size:11pt; margin-top:16pt;">[Simple bar chart: two bars only &mdash; North (tall, green) and South (short, amber). Clean axis labels. Large font.]</p>
+<p style="font-size:11pt; margin-top:8pt;">&bull; Full regional breakdown available in appendix slide 14</p>
+</td></tr>
+</table>
+<p><strong>What changed:</strong> Headline states the insight (which regions are winning and which are not). Visual reduced to one simple comparison. Full data moved to appendix. The audience knows exactly what to focus on and what to ask about.</p>
+
+<h2>Before Slide 3: &ldquo;The Clip Art Graveyard&rdquo;</h2>
+<table>
+<tr><td style="background-color:#e8e8e8; padding:20pt; font-size:9pt;">
+<p style="font-size:14pt; font-weight:bold; color:#336699;">Our Values &amp; Ways of Working!!</p>
+<p style="font-size:8pt;">[Describe to participants: imagine 6 generic stock images (handshake, lightbulb, jigsaw puzzle pieces, mountain climber, thumbs up, group of diverse people smiling) arranged randomly across the slide, each with a single-word label underneath (Teamwork, Innovation, Excellence, Growth, Positivity, Diversity). Three different fonts used. A decorative border. An animated star graphic in the corner. Two exclamation marks in the title. A Tesla logo that is slightly pixelated because it was copied from a Google image search rather than the brand asset library.]</p>
+</td></tr>
+</table>
+<p><strong>Sins committed:</strong> Clip Art Graveyard (Sin 3), Font Festival (Sin 4), Transition Theatre (Sin 6). Generic stock images add no meaning. Single-word labels say nothing actionable. The slide could belong to any company in the world.</p>
+
+<h3>After Slide 3: Redesigned</h3>
+<table>
+<tr><td style="background-color:white; padding:20pt; border:2px solid #ccc;">
+<p style="font-size:18pt; font-weight:bold; color:#c00000;">How We Work: Three Non-Negotiables</p>
+<p style="font-size:12pt; margin-top:16pt;"><strong>1. Move fast, fix fast.</strong> Speed over perfection &mdash; iterate, don&rsquo;t wait.</p>
+<p style="font-size:12pt;"><strong>2. Challenge the brief.</strong> If the direction is wrong, say so &mdash; silence is agreement.</p>
+<p style="font-size:12pt;"><strong>3. Own the outcome.</strong> No handoffs without accountability.</p>
+</td></tr>
+</table>
+<p><strong>What changed:</strong> Generic values replaced with specific, actionable behaviours unique to the team. No stock images. One font. Clean layout. The audience walks away knowing what is expected of them, not just what the company aspires to.</p>
+
+
+<h1>APPENDIX D: ASSESSMENT RUBRICS &amp; FEEDBACK FORMS</h1>
+
+<h2>Presentation Feedback Form (Peer &amp; Facilitator)</h2>
+<p><em>Use during capstone presentations and practice exercises.</em></p>
+<table>
+<tr><th style="background-color:#333333;" colspan="2">PRESENTATION FEEDBACK FORM</th></tr>
+<tr><td colspan="2"><strong>Presenter Name:</strong> _________________________ &nbsp;&nbsp;&nbsp; <strong>Date:</strong> _____________</td></tr>
+<tr><td colspan="2"><strong>Topic / Exercise:</strong> _________________________</td></tr>
+</table>
+<table>
+<tr><th style="width:35%;">Criteria</th><th style="width:13%;">Developing<br>(1)</th><th style="width:13%;">Competent<br>(2)</th><th style="width:13%;">Strong<br>(3)</th><th style="width:13%;">Excellent<br>(4)</th><th style="width:13%;">Comments</th></tr>
+<tr><td><strong>Structure &amp; Clarity</strong><br>Clear framework (SCR/PREP), logical flow, headline first</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Audience Focus</strong><br>Tailored to audience, &ldquo;so what?&rdquo; test passed, clear ask</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Vocal Delivery</strong><br>Pace variation, volume, pitch, avoidance of filler words</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Pauses &amp; Timing</strong><br>Strategic pauses, comfortable with silence, time management</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Body Language &amp; Eye Contact</strong><br>Posture, gestures, movement, eye contact distribution</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Confidence &amp; Composure</strong><br>Calm under pressure, recovery from stumbles, authority</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Opening Impact</strong><br>Strong first impression, hook, avoidance of weak openers</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><strong>Close &amp; Call to Action</strong><br>Clear summary, specific ask, memorable close</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<table>
+<tr><td style="background-color:#f5f5f5;"><strong>One thing that worked really well:</strong><br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>One thing to develop further:</strong><br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+</table>
+
+<h2>End-of-Day Evaluation Form</h2>
+<p><em>To be completed by each participant before leaving.</em></p>
+<table>
+<tr><th style="background-color:#333333;" colspan="2">PRESENTATION SKILLS V3 &mdash; SESSION EVALUATION</th></tr>
+<tr><td colspan="2"><strong>Date:</strong> _____________ &nbsp;&nbsp;&nbsp; <strong>Facilitator:</strong> _________________________</td></tr>
+</table>
+<table>
+<tr><th style="width:50%;">Question</th><th style="width:10%;">1<br>(Poor)</th><th style="width:10%;">2</th><th style="width:10%;">3</th><th style="width:10%;">4</th><th style="width:10%;">5<br>(Excellent)</th></tr>
+<tr><td>The session objectives were clear and relevant to my role</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>The content was practical and applicable to my daily work</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>The pace and flow of the day was well managed</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>The activities and exercises supported my learning</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>I feel more confident in my ability to present and communicate</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>The virtual presence content was relevant and useful</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>The facilitator was knowledgeable and engaging</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>I would recommend this session to a colleague</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<table>
+<tr><td style="background-color:#f5f5f5;"><strong>What was the most valuable part of the day?</strong><br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>What would you change or add?</strong><br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+<tr><td style="background-color:#f5f5f5;"><strong>Which technique are you most likely to use first, and where?</strong><br>&nbsp;<br>&nbsp;<br>&nbsp;</td></tr>
+</table>
+
+<h1>APPENDIX E: VIDEO EXEMPLAR CUE SHEET &amp; SOURCING GUIDE</h1>
+
+<p>This programme uses two video exemplar moments. Both are critical for multi-modal learning and should be sourced and tested before delivery. Below are recommended options and facilitation cues.</p>
+
+<h2>Video 1: Storytelling in Action (Module 2A &mdash; 2&ndash;3 minutes)</h2>
+<table>
+<tr><th style="width:25%;">Purpose</th><td>Show participants what a well-structured business narrative looks like when delivered live. Demonstrates SCR framework and the &ldquo;So What?&rdquo; test in practice.</td></tr>
+<tr><th>Recommended Sources</th><td>
+<ul>
+    <li><strong>Option A (Best):</strong> A recorded internal Tesla UK presentation that uses strong narrative structure. Seek permission from the presenter. Internal examples have the highest credibility because participants recognise the context.</li>
+    <li><strong>Option B:</strong> A TED or TEDx talk excerpt that demonstrates business storytelling. Recommended: Simon Sinek &ldquo;Start With Why&rdquo; (first 3 minutes &mdash; strong SCR structure), or Brene Brown &ldquo;The Power of Vulnerability&rdquo; (opening 2 minutes &mdash; masterclass in hooking an audience).</li>
+    <li><strong>Option C:</strong> A publicly available corporate keynote excerpt. Apple product launches and Patagonia sustainability presentations are strong examples of data-to-story translation.</li>
+</ul>
+</td></tr>
+<tr><th>Cue Point</th><td>Play from [START] to [END] &mdash; mark exact timestamps in your facilitator copy. Keep the clip to 2&ndash;3 minutes maximum. Longer clips lose the room.</td></tr>
+<tr><th>Facilitation Notes</th><td>Before playing: &ldquo;Watch for the SCR structure &mdash; can you spot the situation, the complication, and the resolution?&rdquo; After playing: facilitate 2-minute discussion pulling out specific observations.</td></tr>
+</table>
+
+<h2>Video 2: Presence Contrast Clip (Module 3A &mdash; 3&ndash;4 minutes)</h2>
+<table>
+<tr><th style="width:25%;">Purpose</th><td>Show the visible, tangible difference between low-presence and high-presence delivery of the same content. Makes the four pillars of presence concrete and observable.</td></tr>
+<tr><th>Recommended Sources</th><td>
+<ul>
+    <li><strong>Option A (Best):</strong> Record two versions yourself before the session. Deliver the same 60-second script twice: once flat, monotone, fidgeting, reading from notes, no pauses; once with vocal variety, pauses, grounded posture, and eye contact. This is the most powerful option because participants see <em>you</em> modelling the growth, and it demonstrates that presence is a choice, not a trait.</li>
+    <li><strong>Option B:</strong> Use a publicly available &ldquo;before and after&rdquo; public speaking coaching clip. Search for &ldquo;public speaking transformation&rdquo; or &ldquo;presentation coaching before and after&rdquo; on YouTube. Select a clip that shows a clear difference in vocal variety, body language, and pacing.</li>
+    <li><strong>Option C:</strong> Use two contrasting clips of different speakers: one who is flat and monotone, one who demonstrates strong presence. Ensure both are professional contexts (not comedy or entertainment).</li>
+</ul>
+</td></tr>
+<tr><th>Cue Point</th><td>Play Clip A (poor delivery) in full, then Clip B (strong delivery) in full. Total combined time: 3&ndash;4 minutes maximum.</td></tr>
+<tr><th>Facilitation Notes</th><td>Before playing: &ldquo;Same content, two deliveries. Notice what specific behaviours change.&rdquo; After playing: ask the room to call out specific differences. Write them on flip chart &mdash; this becomes the reference for the four pillars teaching.</td></tr>
+</table>
+
+<div class="tip-box">
+<span class="tip-label">Video Preparation Checklist</span>
+<ul>
+    <li>Source clips at least 1 week before delivery</li>
+    <li>Download clips locally to avoid reliance on internet/streaming on the day (have a backup USB)</li>
+    <li>Test playback on the facilitator laptop with the room&rsquo;s AV system &mdash; check both video and audio quality</li>
+    <li>If using internal Tesla clips, confirm you have permission from the presenter and any relevant stakeholders</li>
+    <li>Prepare a contingency: if video fails on the day, the facilitator delivers the contrast themselves &mdash; a live &ldquo;before and after&rdquo; demo using the same 60-second script</li>
+</ul>
+</div>
+
+<h1>APPENDIX F: FACILITATOR DELIVERY NOTES &amp; CONTINGENCIES</h1>
+
+<h2>Timing Flexibility Guide</h2>
+<table>
+<tr><th>Scenario</th><th>Adjustment</th></tr>
+<tr><td><strong>Fewer than 8 participants</strong></td><td>Every participant can present in the full-room capstone (skip the breakout phase). Add a second round to the Power Opener drill. The Difficult Room simulation can run as a whole group. You may gain 15&ndash;20 minutes &mdash; use for extended coaching.</td></tr>
+<tr><td><strong>More than 16 participants</strong></td><td>Limit 60-Second Spotlight to 10&ndash;12 volunteers. Run the Difficult Room in three parallel groups. Keep breakout capstone groups at 4&ndash;5 but run four groups. Add a co-facilitator if possible.</td></tr>
+<tr><td><strong>Running behind schedule</strong></td><td>Most compressible: Slide Redesign debrief (shorten to partner-only, cut group review, save 8 min). Energiser after lunch (cut to 5 min). Teams Camera Drill (reduce to 3 presenters, save 3 min). Do NOT compress the capstone or the facilitation simulation.</td></tr>
+<tr><td><strong>Running ahead of schedule</strong></td><td>Add a second Power Opener round. Extend the Difficult Room to three rounds. Add an impromptu Q&amp;A round after capstone where the audience deliberately asks difficult questions.</td></tr>
+<tr><td><strong>Video fails on the day</strong></td><td>Facilitator delivers the contrast live &mdash; same 60-second script twice, once poorly and once with presence. For the storytelling video, facilitator tells a strong SCR narrative live and asks participants to identify the elements. This can be equally powerful.</td></tr>
+<tr><td><strong>No second device for Teams drill</strong></td><td>Pair participants up. One sits at the facilitator laptop (camera on), the other stands behind them watching the screen. They switch. Reduces throughput but preserves the learning.</td></tr>
+</table>
+
+<h2>Difficult Participant Scenarios</h2>
+<table>
+<tr><th style="width:25%;">Scenario</th><th style="width:75%;">Recommended Approach</th></tr>
+<tr><td><strong>Refuses to present</strong></td><td>Do not force. Acknowledge privately at break. Offer a reduced-pressure alternative: presenting to the facilitator and one peer. Many will join voluntarily by the afternoon once the room feels safe.</td></tr>
+<tr><td><strong>Dominates discussion</strong></td><td>Acknowledge, then redirect: &ldquo;Great point. I want to hear from someone we have not heard from yet.&rdquo; If persistent, speak privately at break: &ldquo;Your experience is clearly strong &mdash; would you help me draw out the quieter members?&rdquo;</td></tr>
+<tr><td><strong>Sceptical (&ldquo;I already know this&rdquo;)</strong></td><td>Validate: &ldquo;Great &mdash; strong foundation. Can you apply the framework to a situation where you did not get the outcome you wanted?&rdquo; Position the day as refinement, not remediation.</td></tr>
+<tr><td><strong>Becomes emotional during feedback</strong></td><td>Handle with empathy and privacy. Pause the exercise if needed. Normalise: &ldquo;Feedback on how we present feels very personal. That reaction shows you care about getting better.&rdquo;</td></tr>
+<tr><td><strong>Consistently on phone / disengaged</strong></td><td>First, check in privately: &ldquo;Is everything okay? I noticed you&rsquo;ve been on your phone &mdash; is there something urgent I should know about?&rdquo; If it is not urgent, remind them of ground rule 1 (Be Present) warmly but directly.</td></tr>
+</table>
+
+<h2>Key Facilitation Reminders</h2>
+<ul>
+    <li><strong>Model everything you teach.</strong> Your own delivery is your most powerful teaching tool. If you tell participants to use pauses, use pauses. You are under observation all day.</li>
+    <li><strong>Feedback is a gift, not a weapon.</strong> Lead with what worked. Developmental points framed as &ldquo;next time, try&hellip;&rdquo;</li>
+    <li><strong>Energy management is your responsibility.</strong> If the room is flat, change the modality. If it is buzzing, let it run. Read and respond.</li>
+    <li><strong>Use the Parking Lot actively.</strong> Return to parked items. Honour the commitment.</li>
+    <li><strong>Close every module with a bridge.</strong> The programme should feel like a single journey, not six separate workshops.</li>
+    <li><strong>Protect the close.</strong> Never sacrifice the final 20 minutes for earlier overruns. The capstone, action plan, and buddy pairing are the highest-ROI moments of the day.</li>
+</ul>
+
+<h1>APPENDIX G: MANAGER BRIEFING PACK</h1>
+
+<p><em>Send to each participant&rsquo;s line manager within 48 hours of the session.</em></p>
+
+<h2>What Your Team Member Covered</h2>
+<p>Your team member attended Presentation Skills V3, a full-day programme equipping them with practical skills to communicate, present, and facilitate to a professional standard. The programme covered:</p>
+<ul>
+    <li><strong>Audience Empathy:</strong> Shifting from &ldquo;what I want to say&rdquo; to &ldquo;what they need to hear&rdquo;</li>
+    <li><strong>Strategic Storytelling:</strong> Using narrative frameworks (SCR, PREP) to structure compelling messages</li>
+    <li><strong>Simplification:</strong> Leading with the headline (Pyramid Principle) and cutting jargon</li>
+    <li><strong>Executive Presence:</strong> Vocal variety, strategic pauses, body language, and managing nerves</li>
+    <li><strong>Virtual Presence:</strong> Camera techniques, energy calibration, and managing screen-share</li>
+    <li><strong>PowerPoint Design:</strong> Creating visuals that support rather than undermine a message</li>
+    <li><strong>Facilitation:</strong> Opening/closing with impact, questioning techniques, managing dynamics and time</li>
+</ul>
+
+<h2>What &ldquo;Good&rdquo; Looks Like After This Programme</h2>
+<ul>
+    <li>They prepare for presentations by thinking about the audience first, not the content first</li>
+    <li>They lead with the recommendation and support it with reasons, rather than building bottom-up through data</li>
+    <li>Their slides have clear headlines, minimal text, and strong visual hierarchy</li>
+    <li>They open meetings and presentations with a clear hook and purpose, not &ldquo;so, um, let&rsquo;s get started&rdquo;</li>
+    <li>They use pauses deliberately and speak with greater vocal range</li>
+    <li>They show up on camera with energy, proper framing, and eye contact with the lens</li>
+    <li>They close meetings with a clear summary, specific assigned actions, and a forward-looking statement</li>
+</ul>
+
+<h2>Three Things You Can Do to Support Transfer</h2>
+<table>
+<tr><th style="width:5%;">#</th><th style="width:30%;">Action</th><th>Detail</th></tr>
+<tr><td>1</td><td><strong>Give them a platform</strong></td><td>Within the next 2 weeks, ask them to present a topic or update in your team meeting. Encourage them to use the frameworks from the programme (SCR, PREP, Billboard Test). This gives them a low-stakes opportunity to practise.</td></tr>
+<tr><td>2</td><td><strong>Give them specific feedback</strong></td><td>After they present, give them one specific piece of positive feedback tied to the programme: &ldquo;I noticed you led with the headline &mdash; that was really clear&rdquo; or &ldquo;Your pause before the recommendation was effective.&rdquo; Specific feedback reinforces the behaviour.</td></tr>
+<tr><td>3</td><td><strong>Role-model it yourself</strong></td><td>The techniques in this programme apply to everyone, regardless of seniority. If you start leading with the headline, using the Audience Empathy framework, and opening meetings with Hook &rarr; Purpose &rarr; Contract, your team will follow. Culture is set by what leaders do, not what training teaches.</td></tr>
+</table>
+
+<p><em>If you have questions about the programme or how to support your team member&rsquo;s development, contact [FACILITATOR NAME / L&amp;D TEAM EMAIL].</em></p>
+
+<br><br>
+<hr>
+<p style="text-align:center; color:#999999; font-size:9pt;">Presentation Skills V3 &mdash; Facilitator Guide &mdash; Tesla UK Learning &amp; Development &mdash; Internal Use Only</p>
+<p style="text-align:center; color:#999999; font-size:9pt;">End of Document</p>
+
+</body>
+</html>

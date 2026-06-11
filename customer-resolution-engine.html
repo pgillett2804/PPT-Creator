@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Resolution Engine - Tesla</title>
+<style>
+  :root {
+    --tesla-red: #e82127;
+    --tesla-dark: #171a20;
+    --tesla-gray: #393c41;
+    --tesla-light: #f4f4f4;
+    --tesla-white: #ffffff;
+    --border: #d0d0d0;
+    --success: #2e7d32;
+    --warning: #f9a825;
+    --info: #1565c0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--tesla-light);
+    color: var(--tesla-dark);
+    min-height: 100vh;
+  }
+
+  /* ── Header ─────────────────────────────────────── */
+  .header {
+    background: var(--tesla-dark);
+    color: var(--tesla-white);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+  .header h1 span { color: var(--tesla-red); }
+  .header-badge {
+    font-size: 11px;
+    background: var(--tesla-red);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+  }
+
+  /* ── Layout ─────────────────────────────────────── */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 860px) {
+    .container { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: var(--tesla-white);
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.08);
+    padding: 24px;
+  }
+  .panel-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--tesla-gray);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .panel-title .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-red   { background: var(--tesla-red); }
+  .dot-green { background: var(--success); }
+
+  /* ── Input side ─────────────────────────────────── */
+  .customer-input {
+    width: 100%;
+    min-height: 180px;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: vertical;
+    font-family: inherit;
+    transition: border-color .2s;
+  }
+  .customer-input:focus {
+    outline: none;
+    border-color: var(--tesla-red);
+  }
+  .customer-input::placeholder { color: #aaa; }
+
+  /* Controls row */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+    align-items: center;
+  }
+  .controls label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--tesla-gray);
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+  .controls select, .controls input[type="text"] {
+    padding: 8px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+    background: #fff;
+  }
+  .controls select:focus, .controls input[type="text"]:focus {
+    outline: none;
+    border-color: var(--tesla-red);
+  }
+
+  .btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s, transform .1s;
+    font-family: inherit;
+  }
+  .btn:active { transform: scale(.97); }
+  .btn-primary {
+    background: var(--tesla-red);
+    color: #fff;
+  }
+  .btn-primary:hover { background: #c91c21; }
+  .btn-secondary {
+    background: var(--tesla-dark);
+    color: #fff;
+  }
+  .btn-secondary:hover { background: #2c2f36; }
+  .btn-outline {
+    background: transparent;
+    border: 1.5px solid var(--border);
+    color: var(--tesla-gray);
+  }
+  .btn-outline:hover { background: var(--tesla-light); }
+
+  .spacer { flex: 1; }
+
+  /* ── Detected category badge ────────────────────── */
+  .category-badge {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+  }
+  .cat-refund    { background: #fce4ec; color: #c62828; }
+  .cat-warranty  { background: #e8f5e9; color: #2e7d32; }
+  .cat-billing   { background: #e3f2fd; color: #1565c0; }
+  .cat-complaint { background: #fff3e0; color: #e65100; }
+  .cat-legal     { background: #f3e5f5; color: #6a1b9a; }
+  .cat-general   { background: #eceff1; color: #455a64; }
+
+  /* ── Output side ────────────────────────────────── */
+  .response-output {
+    min-height: 180px;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    background: #fafafa;
+    position: relative;
+    cursor: text;
+    overflow-y: auto;
+    max-height: 500px;
+  }
+  .response-output[contenteditable="true"]:focus {
+    outline: none;
+    border-color: var(--tesla-red);
+    background: #fff;
+  }
+  .placeholder-text { color: #aaa; font-style: italic; }
+
+  .output-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--tesla-dark);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all .3s ease;
+    z-index: 200;
+  }
+  .toast.show { transform: translateY(0); opacity: 1; }
+
+  /* ── Full-width panels ──────────────────────────── */
+  .full-width { grid-column: 1 / -1; }
+
+  /* Quick-reference table */
+  .ref-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .ref-table th {
+    background: var(--tesla-dark);
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+  .ref-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  .ref-table tr:hover td { background: #f9f9f9; }
+  .ref-table .legal-note {
+    font-size: 11px;
+    color: #888;
+    margin-top: 4px;
+  }
+
+  /* ── Sentiment indicator ────────────────────────── */
+  .sentiment-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--tesla-gray);
+  }
+  .sentiment-bar .bar {
+    flex: 1;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .sentiment-bar .fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width .4s ease;
+  }
+  .fill-angry   { background: #e53935; }
+  .fill-upset   { background: #fb8c00; }
+  .fill-neutral { background: #fdd835; }
+  .fill-calm    { background: #66bb6a; }
+
+  .customer-name-input {
+    width: 160px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 18px;
+    font-size: 11px;
+    color: #999;
+    letter-spacing: .3px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<div class="header">
+  <h1><span>T</span>esla &mdash; Customer Resolution Engine</h1>
+  <span class="header-badge">Internal Tool</span>
+</div>
+
+<!-- ═══ MAIN GRID ═══ -->
+<div class="container">
+
+  <!-- ── LEFT: Customer Message ── -->
+  <div class="panel">
+    <div class="panel-title"><span class="dot dot-red"></span> Customer Message</div>
+    <textarea class="customer-input" id="customerMsg" placeholder="Paste or type the customer's message here..."></textarea>
+
+    <div class="controls">
+      <label for="customerName">Customer:</label>
+      <input type="text" id="customerName" class="customer-name-input" placeholder="First name" value="">
+
+      <label for="toneSelect">Tone:</label>
+      <select id="toneSelect">
+        <option value="empathetic" selected>Empathetic</option>
+        <option value="formal">Formal / Legal</option>
+        <option value="concise">Concise</option>
+      </select>
+
+      <label for="categoryOverride">Category:</label>
+      <select id="categoryOverride">
+        <option value="auto">Auto-Detect</option>
+        <option value="refund">Refunds &amp; Returns</option>
+        <option value="warranty">Warranty &amp; Repairs</option>
+        <option value="billing">Billing Disputes</option>
+        <option value="complaint">Service Complaints</option>
+        <option value="legal">Legal / Regulatory</option>
+      </select>
+    </div>
+
+    <!-- Detected info -->
+    <div id="detectedInfo"></div>
+
+    <!-- Sentiment -->
+    <div class="sentiment-bar" id="sentimentBar" style="display:none;">
+      <span>Sentiment:</span>
+      <div class="bar"><div class="fill" id="sentimentFill"></div></div>
+      <span id="sentimentLabel">--</span>
+    </div>
+
+    <div class="controls" style="margin-top:16px;">
+      <button class="btn btn-primary" onclick="generateResponse()">Generate Response</button>
+      <button class="btn btn-outline" onclick="clearAll()">Clear</button>
+    </div>
+  </div>
+
+  <!-- ── RIGHT: Generated Response ── -->
+  <div class="panel">
+    <div class="panel-title"><span class="dot dot-green"></span> Suggested Response</div>
+    <div class="response-output" id="responseOutput" contenteditable="true">
+      <span class="placeholder-text">Your generated response will appear here. You can edit it before copying.</span>
+    </div>
+    <div class="output-actions">
+      <button class="btn btn-secondary" onclick="copyResponse()">Copy to Clipboard</button>
+      <button class="btn btn-outline" onclick="regenerate()">Regenerate</button>
+      <span class="spacer"></span>
+      <button class="btn btn-outline" onclick="softenTone()">Soften Tone</button>
+    </div>
+  </div>
+
+  <!-- ── FULL-WIDTH: Quick Reference ── -->
+  <div class="panel full-width">
+    <div class="panel-title">Quick Policy Reference</div>
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Standard Resolution Window</th>
+          <th>Key Policy Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Refunds &amp; Returns</strong></td>
+          <td>7&ndash;14 business days</td>
+          <td>Vehicles: subject to state return/cooling-off laws. Accessories: 30-day return policy, unused condition. Software/FSD: non-refundable per Terms of Use unless required by law.
+            <div class="legal-note">Ref: Tesla Return Policy; UCC &sect;2-608 (revocation of acceptance)</div>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Warranty &amp; Repairs</strong></td>
+          <td>Diagnosis: 3&ndash;5 days; Repair: varies</td>
+          <td>Basic Vehicle: 4 yr / 50k mi. Battery &amp; Drive Unit: 8 yr / varies by model (100k&ndash;150k mi). Body rust-through: 12 yr / unlimited. Repairs at authorized Tesla Service Centers only.
+            <div class="legal-note">Ref: Tesla New Vehicle Limited Warranty; Magnuson-Moss Warranty Act (15 USC &sect;&sect;2301-2312)</div>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Billing Disputes</strong></td>
+          <td>Acknowledgment within 5 business days; resolution within 30 days</td>
+          <td>Supercharging billing disputes: review session logs. Financing: coordinate with Tesla Finance. Duplicate charges: escalate to payments team.
+            <div class="legal-note">Ref: Fair Credit Billing Act (15 USC &sect;1666); EFTA / Reg E for debit</div>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Service Complaints</strong></td>
+          <td>Response within 24&ndash;48 hours</td>
+          <td>Escalation path: Advisor &rarr; Service Manager &rarr; Regional Manager. Offer goodwill gestures where appropriate (Supercharger credits, loaner). Document everything in CRM.
+            <div class="legal-note">Ref: Internal Escalation SOP; FTC Act &sect;5 (unfair/deceptive practices)</div>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Legal / Regulatory</strong></td>
+          <td>Acknowledge within 24 hours; legal review within 5 days</td>
+          <td>Lemon law claims: state-specific (CA: Song-Beverly Act). NHTSA complaints: coordinate with Regulatory team. Arbitration: per purchase agreement. <strong>Do not admit liability.</strong>
+            <div class="legal-note">Ref: State Lemon Laws; NHTSA 49 USC &sect;30166; Tesla Dispute Resolution Agreement</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="footer">Tesla Customer Resolution Engine &mdash; For internal use only &mdash; Responses are templates; always verify details before sending.</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ════════════════════════════════════════════════════════
+// KEYWORD → CATEGORY MAPPING
+// ════════════════════════════════════════════════════════
+const CATEGORY_KEYWORDS = {
+  refund: [
+    'refund','return','money back','reimburse','cancel order','cancellation',
+    'credit back','give me back','returned','returning','full refund','partial refund',
+    'paid for','overcharged','want my money','get my money','purchase','bought'
+  ],
+  warranty: [
+    'warranty','covered','repair','broken','defect','malfunction','fix','service center',
+    'recall','battery issue','battery degradation','drive unit','motor','screen issue',
+    'not working','stopped working','under warranty','out of warranty','replace','replacement',
+    'rattling','noise','squeaking','fault','error code','service appointment'
+  ],
+  billing: [
+    'bill','charge','charged','invoice','payment','supercharger charge','subscription',
+    'double charge','duplicate charge','unauthorized','wrong amount','overcharged',
+    'credit card','debit','autopay','statement','premium connectivity','fsd subscription',
+    'financing','loan','monthly payment'
+  ],
+  complaint: [
+    'disappointed','unacceptable','terrible','worst','horrible','disgusted','frustrated',
+    'poor service','bad experience','never again','incompetent','rude','unprofessional',
+    'waited','waiting','no response','ignored','lied','misleading','false promise',
+    'escalate','manager','supervisor','complaint','unhappy','dissatisfied'
+  ],
+  legal: [
+    'lawyer','attorney','lawsuit','sue','lemon','lemon law','legal action','arbitration',
+    'consumer protection','ftc','nhtsa','regulatory','rights','statute','violation',
+    'department of','attorney general','bbb','better business','class action','court',
+    'demand letter','mediation','song-beverly','magnuson-moss'
+  ]
+};
+
+// ════════════════════════════════════════════════════════
+// SENTIMENT ANALYSIS (simple keyword-based)
+// ════════════════════════════════════════════════════════
+const SENTIMENT_WORDS = {
+  angry: [
+    'furious','outraged','livid','disgusted','unacceptable','worst','horrible',
+    'terrible','scam','fraud','theft','sue','lawyer','ridiculous','insane',
+    'never again','done with','sick of','fed up','absurd','joke','pathetic',
+    'incompetent','lied','lying','ripped off','steal','stolen'
+  ],
+  upset: [
+    'frustrated','disappointed','unhappy','dissatisfied','annoyed','upset',
+    'concerned','worried','confused','let down','not okay','not acceptable',
+    'poor','bad','wrong','mistake','error','fail','failed','problem','issue'
+  ],
+  neutral: [
+    'wondering','question','inquiry','curious','information','update','status',
+    'when','how','what','can you','could you','please','would like'
+  ],
+  calm: [
+    'thank','appreciate','understand','love','great','happy','pleased','satisfied',
+    'amazing','excellent','wonderful','good','helpful','kind'
+  ]
+};
+
+function detectSentiment(text) {
+  const lower = text.toLowerCase();
+  let scores = { angry: 0, upset: 0, neutral: 0, calm: 0 };
+  for (const [level, words] of Object.entries(SENTIMENT_WORDS)) {
+    for (const w of words) {
+      if (lower.includes(w)) scores[level]++;
+    }
+  }
+  const max = Object.entries(scores).reduce((a, b) => b[1] > a[1] ? b : a);
+  if (max[1] === 0) return 'neutral';
+  return max[0];
+}
+
+function showSentiment(sentiment) {
+  const bar = document.getElementById('sentimentBar');
+  const fill = document.getElementById('sentimentFill');
+  const label = document.getElementById('sentimentLabel');
+  bar.style.display = 'flex';
+  const map = {
+    angry:   { width: '25%',  cls: 'fill-angry',   text: 'Angry / Escalated' },
+    upset:   { width: '50%',  cls: 'fill-upset',    text: 'Frustrated' },
+    neutral: { width: '75%',  cls: 'fill-neutral',  text: 'Neutral' },
+    calm:    { width: '100%', cls: 'fill-calm',     text: 'Calm / Positive' }
+  };
+  const s = map[sentiment] || map.neutral;
+  fill.className = 'fill ' + s.cls;
+  fill.style.width = s.width;
+  label.textContent = s.text;
+}
+
+// ════════════════════════════════════════════════════════
+// CATEGORY DETECTION
+// ════════════════════════════════════════════════════════
+function detectCategory(text) {
+  const override = document.getElementById('categoryOverride').value;
+  if (override !== 'auto') return override;
+
+  const lower = text.toLowerCase();
+  let scores = { refund: 0, warranty: 0, billing: 0, complaint: 0, legal: 0 };
+  for (const [cat, words] of Object.entries(CATEGORY_KEYWORDS)) {
+    for (const w of words) {
+      if (lower.includes(w)) scores[cat] += (cat === 'legal' ? 3 : 1); // legal keywords weighted higher
+    }
+  }
+  const max = Object.entries(scores).reduce((a, b) => b[1] > a[1] ? b : a);
+  if (max[1] === 0) return 'complaint'; // default fallback
+  return max[0];
+}
+
+function showCategory(cat) {
+  const info = document.getElementById('detectedInfo');
+  const labels = {
+    refund:    ['Refunds & Returns',    'cat-refund'],
+    warranty:  ['Warranty & Repairs',   'cat-warranty'],
+    billing:   ['Billing Dispute',      'cat-billing'],
+    complaint: ['Service Complaint',    'cat-complaint'],
+    legal:     ['Legal / Regulatory',   'cat-legal']
+  };
+  const [name, cls] = labels[cat] || ['General', 'cat-general'];
+  info.innerHTML = `<span class="category-badge ${cls}">${name}</span>`;
+}
+
+// ════════════════════════════════════════════════════════
+// RESPONSE TEMPLATES
+// ════════════════════════════════════════════════════════
+function getTemplates(category, tone, name, sentiment) {
+  const N = name || 'Valued Customer';
+  const greeting = tone === 'concise'
+    ? `Hi ${N},`
+    : `Dear ${N},`;
+
+  // Empathy openers scaled to sentiment
+  const empathy = {
+    angry: `I completely understand how frustrating this situation must be, and I sincerely apologize for the experience you've had. Please know that your concern is being taken very seriously.`,
+    upset: `Thank you for reaching out and sharing your concerns. I understand this has been a frustrating experience, and I want to help make this right for you.`,
+    neutral: `Thank you for contacting Tesla. I appreciate you bringing this to our attention and I'm here to help.`,
+    calm: `Thank you for reaching out to us. I'm happy to assist you with this.`
+  };
+
+  const opener = tone === 'formal'
+    ? `Thank you for your correspondence. We have reviewed the details of your inquiry and respond as follows.`
+    : (empathy[sentiment] || empathy.neutral);
+
+  const closing = tone === 'formal'
+    ? `Please do not hesitate to contact us should you require further assistance.\n\nSincerely,\n[Your Name]\nTesla Customer Resolution Team`
+    : tone === 'concise'
+    ? `Let me know if you need anything else.\n\nBest,\n[Your Name]\nTesla Customer Resolution`
+    : `I want to make sure we get this fully resolved for you. Please don't hesitate to reach out if you have any additional questions or concerns. We truly value you as a Tesla owner.\n\nWarm regards,\n[Your Name]\nTesla Customer Resolution Team`;
+
+  const templates = {
+    refund: {
+      empathetic: `${greeting}\n\n${opener}\n\nI have reviewed your account and the details of your request. I want to walk you through the next steps for your refund:\n\n1. Your case has been documented and assigned case number [CASE#].\n2. Our team will review the eligible refund amount based on the applicable return policy and the specifics of your purchase.\n3. Once approved, refunds are typically processed within 7-14 business days and will be returned to your original payment method.\n\nPlease note: Vehicle purchases may be subject to state-specific return and cooling-off period laws. For accessories and merchandise, our standard return window is 30 days from delivery, provided items are in unused condition. Software purchases, including Full Self-Driving, are generally non-refundable per our Terms of Use, except where required by applicable law.\n\nI will personally follow up with you within [X] business days with an update on the status of your refund.\n\n${closing}`,
+
+      formal: `${greeting}\n\n${opener}\n\nRe: Refund Request - [ORDER/VIN]\n\nWe acknowledge receipt of your refund request. Upon review of the relevant purchase records and applicable policies, please be advised of the following:\n\n- Refund eligibility is determined pursuant to Tesla's Return Policy and applicable state and federal consumer protection laws.\n- Vehicle purchases may be subject to state-specific cooling-off periods or return statutes (e.g., California Civil Code Section 1793.2).\n- Accessory returns must be initiated within 30 days and items must be in original, unused condition.\n- Software and subscription services are governed by the Tesla Terms of Use and are generally non-refundable except as required by law.\n\nYour request has been assigned case number [CASE#]. We will provide a determination within [X] business days.\n\n${closing}`,
+
+      concise: `${greeting}\n\nThank you for your refund request. Here's what happens next:\n\n- Case #[CASE#] has been created.\n- Refund eligibility review: 3-5 business days.\n- If approved, processed within 7-14 business days to your original payment method.\n\nI'll follow up with a status update by [DATE].\n\n${closing}`
+    },
+
+    warranty: {
+      empathetic: `${greeting}\n\n${opener}\n\nI understand how inconvenient it can be when something isn't working as expected with your Tesla. Let me address your warranty concern:\n\nBased on the information provided, your vehicle [VIN/MODEL] may be covered under Tesla's warranty program:\n- Basic Vehicle Limited Warranty: 4 years or 50,000 miles, whichever comes first.\n- Battery & Drive Unit: 8 years or 100,000-150,000 miles (varies by model).\n- Body Rust-Through: 12 years, unlimited mileage.\n\nHere are the next steps:\n\n1. I've scheduled a diagnostic assessment at your nearest Tesla Service Center: [LOCATION].\n2. Appointment: [DATE/TIME] (or please let me know a time that works better).\n3. If the issue is confirmed to be covered under warranty, the repair will be completed at no cost to you.\n4. If a loaner vehicle or Uber credits are needed during the repair, we will do our best to accommodate you.\n\nAll warranty repairs are performed by Tesla-certified technicians using genuine Tesla parts, as required under the terms of your New Vehicle Limited Warranty.\n\n${closing}`,
+
+      formal: `${greeting}\n\n${opener}\n\nRe: Warranty Claim - [VIN]\n\nWe acknowledge your warranty concern. Tesla's New Vehicle Limited Warranty provides the following coverage, subject to terms and conditions:\n\n- Basic Vehicle: 4 years / 50,000 miles\n- Battery & Drive Unit: 8 years / 100,000-150,000 miles (model-dependent)\n- Body Corrosion (rust-through): 12 years / unlimited mileage\n\nPursuant to the Magnuson-Moss Warranty Act (15 USC Sections 2301-2312), warranty claims are evaluated based on the nature and cause of the defect. Please note that warranty coverage does not extend to damage resulting from misuse, modifications, accidents, or normal wear and tear.\n\nTo proceed, please schedule a diagnostic appointment at an authorized Tesla Service Center. Your case reference is [CASE#].\n\n${closing}`,
+
+      concise: `${greeting}\n\nThank you for reporting this issue. Here's what I've done:\n\n- Created case #[CASE#] for your warranty claim.\n- Your [MODEL] coverage: Basic (4yr/50k mi), Battery (8yr/100k-150k mi).\n- Next step: Diagnostic at [SERVICE CENTER] - please book via the Tesla app or I can schedule for you.\n\nIf it's a covered defect, repair will be at no cost.\n\n${closing}`
+    },
+
+    billing: {
+      empathetic: `${greeting}\n\n${opener}\n\nI've looked into the billing concern you've raised, and I want to make sure we resolve this thoroughly:\n\n1. I've opened case #[CASE#] to investigate the charge(s) in question.\n2. Our billing team will review the relevant transaction records, including [Supercharging session logs / subscription billing / payment records] within 5 business days.\n3. If an error is confirmed, a correction or credit will be issued within 30 days to your payment method on file.\n\nFor your reference:\n- If this involves a Supercharging session, we will review the kWh delivered, session duration, and applicable rate.\n- For subscription charges (Premium Connectivity, FSD Subscription), we will verify the enrollment date and billing cycle.\n- If you believe the charge was unauthorized, you have the right to dispute it under the Fair Credit Billing Act. However, I'm confident we can resolve this directly and quickly.\n\nI will personally update you as soon as the review is complete.\n\n${closing}`,
+
+      formal: `${greeting}\n\n${opener}\n\nRe: Billing Dispute - Account [ACCT#]\n\nWe acknowledge your billing dispute. In accordance with the Fair Credit Billing Act (15 USC Section 1666) and applicable regulations under Regulation Z (12 CFR Part 1026), please be advised:\n\n1. Your dispute has been documented (Case #[CASE#]).\n2. We will investigate the transaction(s) in question and provide a written determination within 30 days.\n3. During the investigation, the disputed amount will not be reported as delinquent.\n\nPlease provide any supporting documentation (receipts, statements, screenshots) to facilitate our review.\n\n${closing}`,
+
+      concise: `${greeting}\n\nI've flagged this billing issue (Case #[CASE#]). Here's the plan:\n\n- Investigation: 5 business days.\n- If an error is found: credit issued within 30 days.\n- I'll email you with the outcome.\n\nIf you have receipts or screenshots, please reply with them attached.\n\n${closing}`
+    },
+
+    complaint: {
+      empathetic: `${greeting}\n\n${opener}\n\nYour feedback is extremely important to us, and I want you to know that the experience you described does not reflect the standard of service we hold ourselves to at Tesla.\n\nHere is what I am doing to address this:\n\n1. I have documented your experience in detail under case #[CASE#].\n2. Your feedback has been shared with the [Service Center / Team] management for immediate review and corrective action.\n3. I would like to offer you [Supercharger credits / a complimentary service / a priority appointment] as a gesture of goodwill while we work to resolve the underlying issue.\n\nI take this personally, and I want to ensure that your next interaction with Tesla is a dramatically better experience. I will follow up with you by [DATE] with a detailed update on the actions we've taken.\n\nYour trust matters to us, and we are committed to earning it back.\n\n${closing}`,
+
+      formal: `${greeting}\n\n${opener}\n\nRe: Service Complaint - Case #[CASE#]\n\nWe take all customer feedback seriously. Your complaint has been documented and escalated to the appropriate management level for review.\n\nPursuant to our internal service standards and in compliance with applicable consumer protection regulations (FTC Act Section 5), we are committed to investigating your concerns thoroughly.\n\nAn authorized representative will contact you within [X] business days to discuss the resolution.\n\n${closing}`,
+
+      concise: `${greeting}\n\nI'm sorry about your experience. I've taken the following steps:\n\n- Case #[CASE#] created and escalated to management.\n- [Service Center/Team] has been notified.\n- I'd like to offer [Supercharger credits / priority service appointment] while we investigate.\n\nI'll follow up by [DATE] with an update.\n\n${closing}`
+    },
+
+    legal: {
+      empathetic: `${greeting}\n\n${opener}\n\nI understand the seriousness of your concerns, and I want to assure you that we are treating this matter with the highest priority.\n\nI have immediately escalated your case to our specialized resolution team:\n\n1. Case #[CASE#] has been created with priority status.\n2. A senior representative will contact you within 24 hours to discuss your concerns in detail.\n3. We will work diligently to find a fair resolution that addresses the issues you've raised.\n\nFor your reference, Tesla's Purchase Agreement includes a Dispute Resolution provision that outlines the process for addressing disputes, including mediation and arbitration options. However, our first priority is always to resolve concerns directly with our customers before any formal process becomes necessary.\n\nPlease note that this communication is intended to address your concerns and should not be construed as an admission of liability. All rights are reserved.\n\nI will personally ensure your case receives the attention it deserves.\n\n${closing}`,
+
+      formal: `${greeting}\n\n${opener}\n\nRe: [SUBJECT] - Case #[CASE#]\n\nWe acknowledge receipt of your correspondence regarding the above-referenced matter. Your concerns have been escalated to the appropriate department for priority review.\n\nPlease be advised:\n\n1. Tesla takes all consumer concerns seriously and is committed to compliance with applicable federal and state consumer protection laws.\n2. Dispute resolution procedures are governed by the Dispute Resolution Agreement executed at the time of purchase, which provides for informal resolution, mediation, and binding arbitration.\n3. For matters involving potential vehicle safety defects, customers may also contact the National Highway Traffic Safety Administration (NHTSA) at 1-888-327-4236 or www.nhtsa.gov.\n4. State-specific remedies, including those under applicable lemon laws, remain available as provided by law.\n\nA member of our resolution team will contact you within 24-48 hours.\n\nNothing in this communication shall be deemed an admission of fault, liability, or warranty obligation beyond the express terms of the applicable Tesla warranty or purchase agreement.\n\n${closing}`,
+
+      concise: `${greeting}\n\nYour concern has been received and escalated with priority (Case #[CASE#]).\n\n- A senior resolution specialist will contact you within 24 hours.\n- Please reference Case #[CASE#] in any future correspondence.\n- If applicable, Tesla's Dispute Resolution Agreement outlines the process for formal dispute resolution.\n\nThis communication is not an admission of liability.\n\n${closing}`
+    }
+  };
+
+  return templates[category]?.[tone] || templates.complaint.empathetic;
+}
+
+// ════════════════════════════════════════════════════════
+// MAIN ACTIONS
+// ════════════════════════════════════════════════════════
+function generateResponse() {
+  const msg = document.getElementById('customerMsg').value.trim();
+  if (!msg) {
+    showToast('Please paste a customer message first.');
+    return;
+  }
+
+  const name = document.getElementById('customerName').value.trim();
+  const tone = document.getElementById('toneSelect').value;
+  const category = detectCategory(msg);
+  const sentiment = detectSentiment(msg);
+
+  showCategory(category);
+  showSentiment(sentiment);
+
+  const response = getTemplates(category, tone, name, sentiment);
+  const output = document.getElementById('responseOutput');
+  output.innerHTML = '';
+  output.textContent = response;
+
+  showToast('Response generated - ' + category.charAt(0).toUpperCase() + category.slice(1));
+}
+
+function regenerate() {
+  // Cycle through tones for regeneration
+  const select = document.getElementById('toneSelect');
+  const tones = ['empathetic', 'formal', 'concise'];
+  const current = tones.indexOf(select.value);
+  select.value = tones[(current + 1) % tones.length];
+  generateResponse();
+  showToast('Regenerated with ' + select.value + ' tone');
+}
+
+function softenTone() {
+  const output = document.getElementById('responseOutput');
+  let text = output.textContent;
+  // Simple replacements to soften
+  const replacements = [
+    [/\bPlease be advised\b/gi, 'I wanted to let you know'],
+    [/\bpursuant to\b/gi, 'in accordance with'],
+    [/\bYou are required to\b/gi, 'We kindly ask that you'],
+    [/\bfailure to\b/gi, 'if we are unable to'],
+    [/\bimmediately\b/gi, 'as soon as possible'],
+    [/\bmust\b/gi, 'should'],
+    [/\bdemand\b/gi, 'request'],
+    [/\brefuse\b/gi, 'are unable to'],
+    [/\bdenied\b/gi, 'not eligible at this time'],
+    [/\bcannot\b/gi, 'may not be able to'],
+    [/\bNothing in this communication shall be deemed\b/g, 'Please note that this communication should not be considered'],
+  ];
+  for (const [pattern, replacement] of replacements) {
+    text = text.replace(pattern, replacement);
+  }
+  output.textContent = text;
+  showToast('Tone softened');
+}
+
+function copyResponse() {
+  const output = document.getElementById('responseOutput');
+  const text = output.textContent;
+  if (!text || text.includes('will appear here')) {
+    showToast('No response to copy yet.');
+    return;
+  }
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('Copied to clipboard!');
+  }).catch(() => {
+    // Fallback
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('Copied to clipboard!');
+  });
+}
+
+function clearAll() {
+  document.getElementById('customerMsg').value = '';
+  document.getElementById('customerName').value = '';
+  document.getElementById('toneSelect').value = 'empathetic';
+  document.getElementById('categoryOverride').value = 'auto';
+  document.getElementById('detectedInfo').innerHTML = '';
+  document.getElementById('sentimentBar').style.display = 'none';
+  document.getElementById('responseOutput').innerHTML =
+    '<span class="placeholder-text">Your generated response will appear here. You can edit it before copying.</span>';
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>

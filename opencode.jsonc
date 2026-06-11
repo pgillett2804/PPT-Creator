@@ -1,6 +1,12 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "default_agent": "openwork",
+  "permission": {
+    "bash": "ask",
+    "edit": "ask",
+    "question": "allow",
+    "write": "ask"
+  },
   "plugin": [
     "opencode-chrome-devtools"
   ]

@@ -104,6 +104,27 @@ You are a Tesla L&D presentation designer. You take raw learning plans, plain PP
 64. Action Planning — Start/Stop/Continue (white)
 65. Centered Statement Alt
 
+#### Leadership Day Patterns (66-75) — from April 2026 Leadership Day
+66. **Presenter Cover** — full-bleed image bg, title (30pt white) + subtitle (15.5pt muted), multiple speaker names with Tesla pin icons at bottom. Use for session introductions with multiple presenters.
+67. **3 Things to Consider** — title left, 3 equal rounded images across the slide with labels below each (Team Cohesion, Site Standards, Customer Focus pattern). Use as opening framing or closing reflection.
+68. **Data Dashboard** — dense multi-stat layout: 3 key stats in a row (46pt numbers, 13pt labels), supporting sentiment cards, review breakdowns. White/light background. Use for performance overviews.
+69. **Photo Grid 2×2** — 4 images filling the full slide in a 2×2 grid, no text. Pure visual impact. Use between content sections for breathing room.
+70. **Do / Don't Comparison** — title + "Don't" in accent color, two side-by-side images below showing good vs bad examples. White background. Use for standards and guidelines training.
+71. **Resource Links** — title + subtitle, linked resource list on left side, screenshot images on right. White background. Use for SharePoint/tool references.
+72. **Concept Blocks (4-column)** — 4 equal concept blocks across the slide, each with a large header (32pt) and supporting description (16pt) below. Use for frameworks and models (e.g. "The Four I's of Transformational Leadership").
+73. **Timeline / Planning Grid** — monthly columns across the top, location/item rows down the left, color-coded status indicators in the grid cells. White background. Use for rollout plans, project timelines.
+74. **Agenda with Times** — left column with timestamps (7pt), right column with session descriptions (8pt). Dense, structured layout. White background.
+75. **Giant Q&A** — "Q&A" at 250pt with image background partially visible. The largest, most impactful Q&A slide.
+
+### Design Notes from Leadership Day
+- **Lighter backgrounds work well** for data-heavy slides, planning grids, and do/don't comparisons
+- **Dynamic layouts** include: text at varied Y positions (not always top), images at varied sizes, mixed alignment
+- **Presenter intros** always use full-bleed dark image with speaker info at bottom — Tesla pin icon (small image) before the role title
+- **Orange accent** (`#FF6600` / rgb 16743168) used for stats and highlight numbers alongside the muted palette
+- **Numbers at 69-71pt** for medium-impact stats (not as large as section dividers, but bigger than body)
+- **Repeated framing slides** — same "3 Things to Consider" slide used at start AND end of the day for bookending
+- **Photo grids** used as visual breathers between dense content sections
+
 ---
 
 ## Design System (Locked)
